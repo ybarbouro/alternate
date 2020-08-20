@@ -1,0 +1,67 @@
+{% include head.html %}
+    <body>
+
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="main">
+          <div class="container" style="margin-bottom: 30px; padding-bottom:20px;">
+            <div class="site-header clearfix" role=banner>
+              <div class=site-logo>PROGRAMA MUSEO ARTE Y CIUDAD
+              </div>
+              <ul class="site-nav inline-block-list">
+                <li>
+                  <a href="/" data-ga-category="Inbound links" data-ga-action="Nav click" data-ga-label="Source code">Inicio
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.salondejulio.com" data-ga-category="Outbound links" data-ga-action="Nav click" data-ga-label=Docs>Salón de Julio
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="wow bounceInDown">
+                <div  style="width: 40%; margin:0; margin-left:auto; margin-right:auto;">
+                  <img src="/assets/dreamers.svg"/>
+                </div>
+            </div>
+
+            <div class="site-promo">
+          <h3>&laquo;Descubre Arte, Cultura y Entretenimiento en la Ciudad&raquo;<br />Sitio oficial de los eventos que realiza la Dirección de Cultura de la M. I. Municipalidad de Guayaquil</h3>
+            </div>
+
+</div><!-- end of container -->
+
+{{ content }}
+
+{% include footer.html %}
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="/js/plugins.js"></script>
+        <script src="/js/main.js"></script>
+        <script src="/js/kube.js"></script>
+        <script src="/js/wow.js"></script>
+
+        <script>
+        wow = new WOW(
+                {
+                  animateClass: 'animated',
+                  offset: 100
+                }
+        )
+        wow.init()
+        </script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-100191210-1', 'auto');
+  ga('send', 'pageview');
+</script>

@@ -1,0 +1,22 @@
+---
+layout: ars
+---
+<div style="padding-top:3em;">
+  <ul class="in-the-wild">
+    {% assign arts = site.arts | sort: 'listing-priority' %}
+    {% for art in arts %}
+    <li>
+      <h3><a href="{{ art.url }}">{{ art.title }} </a></h3><p>{{ art.dates }}<br />{{ art.place }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+
+<div class="row">
+  <div class="col col-2 offset-5">
+  <figure style="margin-bottom:0;">
+    <img src="//salondejulio.com/img/logo-municp.svg">
+  </figure>
+  </div>
+</div>
+
+  </div>

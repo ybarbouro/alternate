@@ -1,0 +1,521 @@
+<!doctype html>
+<html class="no-js" lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Museo Arte y Ciudad</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Facebook OpenGraph Info - Page Specific - Variables listed on each page -->
+	      <meta property="og:title" content="Museo Municipal de Guayaquil" />
+        <meta property="og:type" content="website">
+	      <meta property="og:image" content="//res.cloudinary.com/magnvs/image/upload/v1522811906/temporary_timbbp.jpg" />
+	      <meta property="og:url" content="//www.museoarteyciudad.com" />
+	      <meta property="og:description" content="Abrimos de martes a sábado de 09h00 a 17h30. ¡Conoce más sobre nuestras actividades aquí!" />
+
+	      <!-- Twitter Card Tags -->
+	      <meta name="twitter:card" content="summary_large_image" />
+	      <meta name="twitter:site" content="@MUMG1" />
+        <meta name="twitter:creator" content="@fernanz">
+	      <meta name="twitter:title" content="Museo Municipal de Guayaquil" />
+	      <meta name="twitter:description" content="Abrimos de martes a sábado de 09h00 a 17h30. ¡Conoce más sobre nuestras actividades aquí" />
+	      <meta name="twitter:image" content="//res.cloudinary.com/magnvs/image/upload/v1522811906/temporary_timbbp.jpg" />
+
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+        <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200" rel="stylesheet">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/griddlysq.css">
+        <link rel="stylesheet" href="/css/galeria.css">
+        <link rel="stylesheet" href="/css/irish.css">
+        <link rel="stylesheet" href="/css/kube.css">
+        <link rel="stylesheet" href="/css/magazine.css">
+        <link rel="stylesheet" href="/css/fonts.css">
+        <link rel="stylesheet" href="/css/heritage.css">
+        <link rel="stylesheet" href="/css/slides.css">
+        <link rel="stylesheet" href="/css/animate.css">
+        <link rel="stylesheet" href="/css/jquery.bxslider.css">
+        <link rel="stylesheet" href="/css/modal-video.min.css">
+        <link rel="stylesheet" type="text/css" href="/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+   <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+        <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+        <style>
+/* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+section { display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+article {
+margin: 1rem;
+-ms-flex: 1 0 0px;
+flex: 1;
+/* shortcut for "flex-grow: 1". Note that it MUST be a unitless value to work; defined with a unit (e.g. flex: 1px) the shortcut would alter the flex-basis property. */
+}
+article.breaking {
+-ms-flex-grow: 2;
+flex: 2;
+/* shortcut for "flex-grow: 2" */
+}
+
+article.columnas div {
+column-count: 3;
+}
+
+article.columnas h1 {
+font-size: 2.7rem;
+line-height: 2.7rem;
+padding-bottom: 1rem;
+margin-top: 0;
+max-width: 65%;
+}
+
+article.columnas h2 {
+font-size: 2.3rem;
+line-height: 2.3rem;
+padding-bottom: 1rem;
+margin-top: 0;
+max-width: 55%;
+text-align: left;
+color: #777;
+}
+
+article.columnas h3 {
+text-align: left;
+font-size: 1.3rem;
+}
+
+article.columnas p {
+font-size:.9rem;
+font-family: 'Open Sans', sans-serif;
+}
+
+article.tarjetabg {
+background: url(/img/papers.png);
+padding: 5px 15px;
+}
+
+
+.cardex {
+  position: relative;
+  margin: 0;
+  padding: 15px 15px;
+  margin-left: -15px;
+  margin-right: -15px;
+  /* background-image: linear-gradient(to top, #243949 0%, rgba(46, 87, 103, 0.7) 100%);*/
+  height: 90%;
+  color:#fff;
+}
+
+.cardex > img {
+mix-blend-mode:normal;
+}
+
+article img {
+width: 100%; height: auto;
+border-radius: 7px;
+}
+
+article blockquote > p{
+ color: #666;
+}
+
+img.destacada {
+float: left;
+width: 100%;
+height: auto;
+border-radius: 7px;
+}
+
+article h1, article h2, article h3 { font-family: "Oswald", sans-serif; }
+article h1 {
+font-size: 1.7rem;
+line-height: 1.3;
+text-align: left;
+text-transform: uppercase;
+}
+article h2, article h3 {
+font-size: 1rem;
+text-align: right;
+line-height: 1.3;
+margin: 1.3rem 0;
+font-weight: 300;
+}
+article h3 {
+font-size: 1.1rem;
+}
+article p {
+line-height: 1.3;
+text-align: left;
+}
+
+@media screen and (max-width: 750px) {
+
+section {
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+}
+
+.cardex {
+  position: relative;
+  margin-bottom: -15px;
+  height: 100%;
+}
+
+img.destacada {
+float: none;
+width: 100vw;
+margin-bottom: 1.7rem;
+margin-left: 0;
+}
+
+article.columnas div {
+column-count: 1;
+}
+
+article.columnas h1{
+max-width: 83%;
+}
+
+article.columnas h2{
+max-width: 83%;
+}
+}
+
+text {
+  font-size: 315px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.ct-series-b {
+  fill:#bada55;
+  stroke: white;
+  stroke-width: 4px;
+}
+  </style>
+</head>
+
+    <body>
+
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="main-c">
+
+          <div class="container">
+            <div class="site-header clearfix" role=banner>
+              <div class=site-logo>PROGRAMA MUSEO ARTE Y CIUDAD
+              </div>
+              <ul class="site-navi inline-block-list">
+                <li>
+                  <a href="/" data-ga-category="Inbound links" data-ga-action="Nav click" data-ga-label="Source code">Inicio
+                  </a>
+                </li>
+                <li>
+                  <a href="/contactos" data-ga-category="Outbound links" data-ga-action="Nav click" data-ga-label=Docs>CONTACTOS
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="wow bounceInDown">
+                <div  style="width: 25%; margin:0; margin-left:auto; margin-right:auto;">
+                  <img src="//salondejulio.com/img/logo-municp.svg"/>
+                </div>
+              </div>
+
+          </div><!-- end of container -->
+
+<div class="site-section-head">
+<figure class="full-width">
+      <img class="wide" src="/img/ocmm-title.svg" alt="" />
+</figure>
+</div>
+
+<div class="site-section-head">
+<div class="article-mag-wrap">
+
+
+  <header class="article-mag-header">
+    <h4>
+
+    Por primera vez, en toda la historia del Cabildo, se incorpora una orquesta en el quehacer cultural de la urbe; y, gracias al continuo apoyo del abogado Jaime Nebot y del director de Cultura, el arquitecto Melvin Hoyos G., Guayaquil cuenta con una orquesta representativa.
+
+    </h4>
+
+  <div class="byline">
+      &#10086;
+    </div>
+
+  </header>
+
+  <div class="intro-ps leftie">
+
+	<p><strong>Nace en 1986</strong> bajo la denominación de Orquesta de Cámara Antonio Vivaldi y su primera interpretación pública la realizó en el Centro de Arte (1990) con los niños que conformaban la Escuela de Música del mismo nombre. En 1991 estuvo auspiciada por la Casa de la Cultura Núcleo del Guayas hasta que finalmente en noviembre del siguiente año fue incorporada a la M. I. Municipalidad de Guayaquil, adscrita al Museo Municipal.</p>
+
+    <p><strong>Desde la fecha</strong> en que la orquesta entró a formar parte del Museo Municipal, al inicio de la Alcaldía del Ing. León Febres-Cordero, se constituyó en una herramienta de más cultura para Guayaquil, y en esta trayectoria ha dado muchos conciertos formales y didácticos en diferentes salas y teatros de nuestra ciudad y fuera de ella, contando aún con una vasta programación para llegar a más público, en especial a la ciudadanía de Guayaquil.</p>
+
+
+
+  </div>
+
+<div class="article-mag-body">
+    <div class="site-promo">
+
+    <p class="leftie">A partir de enero del 2008, la orquesta se ha renovado con jóvenes talentos que seguirán impulsando la labor municipal. En el año 2016, la Orquesta de Cámara Antonio Vivaldi, celebró sus bodas de perla.</p>
+    <p class="leftie">Todo este esfuerzo se debe al trabajo tesonero del abogado José A. Valdivieso S., fundador y director de la Orquesta de Cámara del Museo Municipal.</p>
+    </div>
+
+    <figure class="full-width" style="margin-top:0;">
+      <img class="wide" src="https://res.cloudinary.com/magnvs/image/upload/v1501892745/ocm-1_beajud.jpg" alt="" />
+      <figcaption>
+        Ensayos de la Orquesta de Cámara en el Museo Municipal de Guayaquil
+      </figcaption>
+    </figure>
+
+    <div class="byline">
+      &#10086;
+    </div>
+
+    <div class="site-promo">
+    <h3>José Valdivieso</h3>
+    <h4>Director Titular</h4>
+
+    <p class="leftie">El maestro José Valdivieso realizó sus primeros estudios musicales en el «Conservatorio Nacional de Música Antonio Neumane» donde llegó a presidir la Asociación de estudiantes y además fundaría la Orquesta de Estudiantes del Conservatorio, la cual sería la base para la conformación de la primera Orquesta Sinfónica de la Casa de la Cultura.</p>
+
+	 <p class="leftie">Por muchos años se desempeñó como oboista principal de la Orquesta Sinfónica de Guayaquil, de la cual se separó para dedicarse exclusivamente a la agrupación musical que hoy dirige.</p>
+
+  </div>
+  <figure class="full-width" style="margin-bottom: -4em;">
+      <img class="wide" src="https://res.cloudinary.com/magnvs/image/upload/v1501892744/ocm-2_semrbf.jpg" alt="" />
+      <figcaption>
+        En el 2008 la Orquesta de Cámara se renovó con jóvenes valores que continúan impulsando la labor municipal.
+      </figcaption>
+    </figure>
+
+</div>
+  <br />
+
+</div>
+</div><!--END site-section-head -->
+
+<div class="site-section-head">
+
+	<h4 style="color:brown;">Integrantes de la Orquesta</h4><br /><br/>
+
+<div class="grid">
+      <div class="grid-cell">
+
+         <h4>Violines I</h4>
+    <p>&laquo;Tigran Matevosyan <em>(Concertino)</em>&raquo;<br/>
+	   &laquo;Alexis del Barco&raquo;<br/>
+	   &laquo;Saúl Castro&raquo;<br/>
+	   &laquo;César Paredes&raquo;<br/>
+	   &laquo;Maytee Merchán&raquo;<br/>
+	   &laquo;Francisco Carvallo&raquo;
+    </p>
+
+
+      </div>
+      <div class="grid-cell">
+
+        <h4>Violines II</h4>
+    <p>&laquo;Víctor de Luna <em>(Principal)</em>&raquo;<br/>
+	   &laquo;Jackeline Coloma&raquo;<br/>
+     &laquo;Eliza Soria&raquo;<br/>
+	   &laquo;Andrei Gordillo&raquo;<br/>
+	   &laquo;Andrea Vargas&raquo;<br />
+     &laquo;Kevin Vega&raquo;
+    </p>
+
+      </div>
+
+      <div class="grid-cell">
+
+        <h4>Violas</h4>
+    <p>&laquo;Zorik Bazinyan&raquo;<br/>
+	   &laquo;Efraín Ojeda <em>(Principal)</em>&raquo;<br/>
+	   &laquo;Ketty Proaño&raquo;<br/>
+	   &laquo;Joyce Perlaza&raquo;
+	   </p>
+
+      </div>
+
+
+    </div>
+</div><!--END site-section-head -->
+
+<div class="site-section-head">
+
+    <div class="grid">
+      <div class="grid-cell">
+
+    <br />
+    <br />
+    <h4>Viloncellos</h4>
+    <p>
+	   &laquo;Cristhy Loaiza&raquo;<br/>
+	   &laquo;Diego Adamo&raquo;
+    </p>
+
+      </div>
+
+      <div class="grid-cell">
+
+    <h4>Contrabajo</h4>
+    <p>&laquo;Daniel Mayorga&raquo;
+    </p>
+
+    <h4>Director Titular</h4>
+    <p>&laquo;José Valdivieso&raquo;
+    </p>
+
+      </div>
+
+    </div>
+
+</div><!--END site-section-head -->
+
+<div class="site-section-head">
+
+	<figure>
+      <img style="border-radius:50%; width:10%;" src="/img/musk.png" alt="" />
+      <figcaption>
+        &copy;2017 OCMMG
+      </figcaption>
+    </figure>
+
+<div class="article-mag-wrap">
+
+	<div class="byline">
+      &#10086;
+    </div>
+
+  <aside class="in-brief">
+    <h3>PRESENTACIONES</h3>
+    <div class="in-brief-content">
+      <p><strong>Conciertos de temporada:</strong> El último miércoles de cada mes en el Auditorio del MUSEO MUNICIPAL a las 19H00.</p>
+      <p><strong>Conciertos al aire libre:</strong> Segundo y cuarto sábados de cada mes en la glorieta del PARQUE SEMINARIO a las 11H00.</p>
+      <p><strong><i class="fa fa-twitter"></i></strong> @vivaldiorquesta<br /><strong><i class="fa fa-instagram"></i></strong> @orquestavivaldi_gye<br/><strong><i class="fa fa-facebook"></i></strong> Búscanos por el nombre. </p>
+    </div>
+  </aside>
+
+</div>
+</div><!--END site-section-head -->
+
+
+<div class="aside-b">
+<div class="row">
+
+  <div class="col col-6 offset-3">
+  <figure style="margin-bottom:0;">
+    <img src="/assets/main-logos.svg">
+  </figure>
+  </div>
+
+</div>
+</div>
+
+
+<figure class='full-width' style="margin-bottom:0;margin-top:0;">
+  <img class="wide" src="https://res.cloudinary.com/magnvs/image/upload/v1501892745/ocm_fyijyy.jpg">
+</figure>
+
+<div class="site-footer" >
+<div class="row">
+
+  <div style="text-align:center;" class="col col-12">
+  <figure><img src="/assets/dreamers.svg" style="width:20rem;"/></figure><br />
+  <p><small>MUSEO MUNICIPAL DE GUAYAQUIL</small>
+  </p>
+  </div>
+
+<div class="col col-8 offset-2">
+
+  <div class="row gutter">
+    <div class="col col-8 item">
+      <p><i class="fa fa-phone"></i>&emsp; +593-4 2594800 ext. 7402</p>
+      <p><i class="fa fa-bank"></i>&emsp; Sucre entre Chile y Pedro Carbo</p >
+      <p><i class="fa fa-calendar"></i>&emsp; Martes a sábado</p>
+      <p><i class="fa fa-clock-o"></i>&emsp; 09h00 - 17h30</p>
+      <p><i class="fa fa-bus"></i>&emsp; Parada Metrovia más cercana: Biblioteca Municipal</p>
+    </div>
+
+    <div class="col col-4 item">
+      <p>
+        <a class="twitter-share-button" href=https://twitter.com/share data-count=none data-lang=es data-size=large data-text="Musimuestras 2017" data-url="https://twitter.com/" ><i class="fa fa-twitter">&ensp;</i>Comparte
+        </a>
+      </p>
+      <p>
+        <a class="facebook-share-button" href="https://www.facebook.com/museoarteyciudadgye/" data-count=none data-lang=es data-size=large data-text="Musimuestras 2017" data-url="https://www.facebook.com/museoarteyciudadgye/" ><i class="fa fa-facebook">&ensp;</i>Encuéntranos en Facebook
+        </a>
+      </p>
+    </div>
+  </div>
+
+</div>
+
+
+<div style="text-align:center;" class="col col-12">
+
+
+     <hr id="final"/>
+       <p>
+       <a href="https://www.netlify.com"><img style="width:100px"  src="/img/netlify-color-accent.svg"/></a>&nbsp;&nbsp;
+       <a href="https://jekyllrb.com"><img style="width:85px; border-radius:3px" src="/img/jekyll-logo.svg" /></a>&nbsp;&nbsp;
+       <a href="https://html5boilerplate.com"><img style="width:42px; border-radius:3px" src="/img/html5-boilerplate.svg"/></a>
+       </p>
+       <p>
+       <a href="https://fernanz.github.io"><img style="width:55px; border-radius:3px" src="/img/fernanz-logo.svg"/></a>
+       </p>
+
+     <p>
+       DESARROLLO WEB: <a href="mailto:fmayorga.uno@gmail.com">FERNANDO MAYORGA</a><br /><span style="color:#aaa;">&copy; Programa Museo, Arte y Ciudad 2018.</span>
+     </p>
+</div>
+
+</div>
+</div>
+
+</div><!-- end of main-->
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="/js/plugins.js"></script>
+        <script src="/js/main.js"></script>
+        <script src="/js/kube.js"></script>
+        <script src="/js/wow.js"></script>
+
+        <script>
+        wow = new WOW(
+                {
+                  animateClass: 'animated',
+                  offset: 100
+                }
+        )
+        wow.init()
+        </script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100191210-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    </body>
+</html>

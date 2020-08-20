@@ -1,0 +1,433 @@
+<!doctype html>
+<html class="no-js" lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Museo Arte y Ciudad</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Facebook OpenGraph Info - Page Specific - Variables listed on each page -->
+	      <meta property="og:title" content="Museo Municipal de Guayaquil" />
+        <meta property="og:type" content="website">
+	      <meta property="og:image" content="//res.cloudinary.com/magnvs/image/upload/v1522811906/temporary_timbbp.jpg" />
+	      <meta property="og:url" content="//www.museoarteyciudad.com" />
+	      <meta property="og:description" content="Abrimos de martes a sábado de 09h00 a 17h30. ¡Conoce más sobre nuestras actividades aquí!" />
+
+	      <!-- Twitter Card Tags -->
+	      <meta name="twitter:card" content="summary_large_image" />
+	      <meta name="twitter:site" content="@MUMG1" />
+        <meta name="twitter:creator" content="@fernanz">
+	      <meta name="twitter:title" content="Museo Municipal de Guayaquil" />
+	      <meta name="twitter:description" content="Abrimos de martes a sábado de 09h00 a 17h30. ¡Conoce más sobre nuestras actividades aquí" />
+	      <meta name="twitter:image" content="//res.cloudinary.com/magnvs/image/upload/v1522811906/temporary_timbbp.jpg" />
+
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+        <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200" rel="stylesheet">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/griddlysq.css">
+        <link rel="stylesheet" href="/css/galeria.css">
+        <link rel="stylesheet" href="/css/irish.css">
+        <link rel="stylesheet" href="/css/kube.css">
+        <link rel="stylesheet" href="/css/magazine.css">
+        <link rel="stylesheet" href="/css/fonts.css">
+        <link rel="stylesheet" href="/css/heritage.css">
+        <link rel="stylesheet" href="/css/slides.css">
+        <link rel="stylesheet" href="/css/animate.css">
+        <link rel="stylesheet" href="/css/jquery.bxslider.css">
+        <link rel="stylesheet" href="/css/modal-video.min.css">
+        <link rel="stylesheet" type="text/css" href="/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+   <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+        <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+        <style>
+/* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+section { display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+article {
+margin: 1rem;
+-ms-flex: 1 0 0px;
+flex: 1;
+/* shortcut for "flex-grow: 1". Note that it MUST be a unitless value to work; defined with a unit (e.g. flex: 1px) the shortcut would alter the flex-basis property. */
+}
+article.breaking {
+-ms-flex-grow: 2;
+flex: 2;
+/* shortcut for "flex-grow: 2" */
+}
+
+article.columnas div {
+column-count: 3;
+}
+
+article.columnas h1 {
+font-size: 2.7rem;
+line-height: 2.7rem;
+padding-bottom: 1rem;
+margin-top: 0;
+max-width: 65%;
+}
+
+article.columnas h2 {
+font-size: 2.3rem;
+line-height: 2.3rem;
+padding-bottom: 1rem;
+margin-top: 0;
+max-width: 55%;
+text-align: left;
+color: #777;
+}
+
+article.columnas h3 {
+text-align: left;
+font-size: 1.3rem;
+}
+
+article.columnas p {
+font-size:.9rem;
+font-family: 'Open Sans', sans-serif;
+}
+
+article.tarjetabg {
+background: url(/img/papers.png);
+padding: 5px 15px;
+}
+
+
+.cardex {
+  position: relative;
+  margin: 0;
+  padding: 15px 15px;
+  margin-left: -15px;
+  margin-right: -15px;
+  /* background-image: linear-gradient(to top, #243949 0%, rgba(46, 87, 103, 0.7) 100%);*/
+  height: 90%;
+  color:#fff;
+}
+
+.cardex > img {
+mix-blend-mode:normal;
+}
+
+article img {
+width: 100%; height: auto;
+border-radius: 7px;
+}
+
+article blockquote > p{
+ color: #666;
+}
+
+img.destacada {
+float: left;
+width: 100%;
+height: auto;
+border-radius: 7px;
+}
+
+article h1, article h2, article h3 { font-family: "Oswald", sans-serif; }
+article h1 {
+font-size: 1.7rem;
+line-height: 1.3;
+text-align: left;
+text-transform: uppercase;
+}
+article h2, article h3 {
+font-size: 1rem;
+text-align: right;
+line-height: 1.3;
+margin: 1.3rem 0;
+font-weight: 300;
+}
+article h3 {
+font-size: 1.1rem;
+}
+article p {
+line-height: 1.3;
+text-align: left;
+}
+
+@media screen and (max-width: 750px) {
+
+section {
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+}
+
+.cardex {
+  position: relative;
+  margin-bottom: -15px;
+  height: 100%;
+}
+
+img.destacada {
+float: none;
+width: 100vw;
+margin-bottom: 1.7rem;
+margin-left: 0;
+}
+
+article.columnas div {
+column-count: 1;
+}
+
+article.columnas h1{
+max-width: 83%;
+}
+
+article.columnas h2{
+max-width: 83%;
+}
+}
+
+text {
+  font-size: 315px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.ct-series-b {
+  fill:#bada55;
+  stroke: white;
+  stroke-width: 4px;
+}
+  </style>
+</head>
+
+    <body>
+
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="main-c">
+
+          <div class="container">
+            <div class="site-header clearfix" role=banner>
+              <div class=site-logo>PROGRAMA MUSEO ARTE Y CIUDAD
+              </div>
+              <ul class="site-navi inline-block-list">
+                <li>
+                  <a href="/" data-ga-category="Inbound links" data-ga-action="Nav click" data-ga-label="Source code">Inicio
+                  </a>
+                </li>
+                <li>
+                  <a href="/faal" data-ga-category="Inbound links" data-ga-action="Nav click" data-ga-label="Source code">FAAL 2019
+                  </a>
+                </li>
+                <li>
+                  <a href="#" data-ga-category="Inbound links" data-ga-action="Nav click" data-ga-label="Source code">
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="wow bounceInDown">
+                <div  style="width: 100%; margin:0; margin-left:auto; margin-right:auto;">
+                  <img src="/assets/faal-2019.svg"/>
+                </div>
+              </div>
+
+          </div><!-- end of container -->
+
+<div class="container">
+  <h2 class="league-four">BASES DE PARTICIPACIÓN <strong>CONCURSO DE MÚSICA</strong> DEL XX FESTIVAL DE ARTES AL AIRE LIBRE - INDEPENDENCIA DE GUAYAQUIL</h2>
+
+
+  <div class="row leftie">
+    <div class="col col-10">
+
+              <p>El concurso de Música tendrá tema libre en la categoría amateur y profesional. El concurso se desarrollará considerando los siguientes aspectos:</p>
+
+<h3 id="sobre-los-participantes">SOBRE LOS PARTICIPANTES</h3>
+<p>Podrán participar artistas ecuatorianos residentes en el país o en el extranjero; o extranjeros con más de 2 años de residencia en el país.</p>
+
+<p>Solo podrán participar en el concurso amateur mayores de 10 años. Participantes menores a los 10 años podrán presentarse fuera de concurso como invitados en un calendario estipulado por la coordinación del FAAL. Los menores de edad podrán participar bajo supervisión de sus padres.</p>
+
+<p>Ingresarán a la categoría profesional quienes tengan una trayectoria que lo certifique.</p>
+
+<p>Podrán tomar parte en el concurso todos aquellos compositores o intérpretes de cualquier lugar del país. No podrán estar sujetos a ningún tipo de vinculación profesional, mercantil o laboral en vigencia (contrato discográfico, contrato con manager, etc.).</p>
+
+<p>Podrán participar solistas, dúos, tríos, bandas o cualquier tipo de agrupación.</p>
+
+<h3 id="sobre-la-organización">SOBRE LA ORGANIZACIÓN</h3>
+
+<p>La coordinación del FAAL proporcionará una tarima elevada para las representaciones, planta de iluminación y sonido profesional, a la cual deberán adaptar las propuestas. Los participantes deben ajustarse al RIDER técnico y quienes lo deseen, podrán incorporar por su cuenta, los equipos de audio que consideren necesarios y adicionales a la planta técnica del concurso. No se aceptarán propuestas que contengan elementos escenográficos pesados y/o de gran tamaño; el uso, cuidado y seguridad de los objetos e instrumentos utilizados en el escenario será de absoluta responsabilidad de los participantes. El Festival no proporcionará personal de tramoya ni utileros, por lo tanto, los grupos participantes deben contemplar este aspecto.</p>
+
+<p>El FAAL no cubrirá gastos de alojamiento, movilización ni transporte, por lo que los participantes correrán con estos rubros.</p>
+
+<p>Los organizadores informarán con anticipación la hora, el lugar y el día de participación de cada inscrito según sus categorías y estilos musicales. Si algún artista o grupo participante no se presentara al concurso el día y la hora indicada, automáticamente será descalificado.</p>
+
+<h3 id="sobre-la-participación">SOBRE LA PARTICIPACIÓN</h3>
+<p>El concurso se desarrollará en el Malecón del Salado, explanada de La Bota, los días: jueves 10 y viernes 11 de octubre del 2019 a las 18h00.</p>
+
+<p>Los integrantes de cada agrupación podrán participar una sola vez.</p>
+
+<p>Los participantes deberán entregar, además de los documentos necesarios, un CD que contenga la propuesta musical.</p>
+
+<p>Los amateurs y profesionales participarán con un solo tema y dispondrán de 7 minutos para su presentación incluyendo la conexión de instrumentos.</p>
+
+<p>Los inscritos en la categoría amateur podrán participar con un tema de otro músico o inédito, con músicos en vivo o con pista. Los inscritos en la categoría profesional solo podrán interpretar un tema inédito que no hayan participado en ediciones anteriores a este festival.</p>
+
+<p>Los participantes podrán elegir el uso de instrumentos musicales o de pistas. En caso de usar pista el artista deberá llevar a un ayudante para que maneje el audio.</p>
+
+<p>Una vez que se haya concluido el periodo de inscripción, el jurado realizará una preselección y elegirá 20 participantes (10 amateurs y 10 profesionales) para presentarse en vivo los días del concurso antes mencionados.</p>
+
+<h3 id="sobre-la-documentación">SOBRE LA DOCUMENTACIÓN</h3>
+<p>Los participantes deberán inscribirse hasta las 17h00 del viernes 20 de septiembre de 2019 digitalmente en <a href="https://www.museoarteyciudad.com/faal">www.museoarteyciudad.com</a> y entregando los documentos necesarios en las oficinas del Museo Municipal (Sucre entre Chile y Pedro Carbo). Únicamente el registro será efectivo cuando se haya realizado la inscripción en los dos formatos anteriormente mencionados, digital y físico.</p>
+
+<p>Entregando la siguiente documentación:</p>
+
+<ol>
+  <li>Ficha de inscripción con los datos personales del artista o del responsable del grupo concursante. Además del nombre de la agrupación y género de la obra a presentar.</li>
+  <li>Copia de cédula del artista y de cada uno de los participantes en caso de ser agrupación.</li>
+  <li>Entregar un CD que contenga el tema a participar.</li>
+  <li>Currículo artístico (categoría profesional).</li>
+</ol>
+
+<p>En caso de menores de edad que integren las agrupaciones podrán participar presentando una carta de autorización del representante y una copia de cédula de ciudadanía del participante y del representante.</p>
+
+<p>En el caso de extranjeros, deberán cargar soportes de prensa, fotografías que certifiquen un tiempo mínimo de 2 años de trayectoria en el país.</p>
+
+<h3 id="sobre-el-jurado">SOBRE EL JURADO</h3>
+<p>El jurado calificará principalmente los siguientes parámetros:</p>
+
+<p>a) Originalidad
+b) Afinación y ritmo
+c) Interpretación
+d) Dominio escénico</p>
+
+<p>El jurado de selección estará integrado por profesionales de la música que calificarán usando un sistema de votación simple y elegirán la propuesta ganadora.  El concurso no podrá ser declarado desierto y el fallo del jurado será inapelable.</p>
+
+<h3 id="sobre-los-premios">SOBRE LOS PREMIOS</h3>
+<p>El premio M.I. Municipalidad de Guayaquil corresponde a USD 3.000,00 (tres mil dólares de los Estados Unidos de Norteamérica) que serán entregados al artista o agrupación ganadora de la categoría profesional. El ganador de la categoría amateur se hará acreedor a la grabación profesional del tema con el que participó.</p>
+
+<p>Se consideran menciones de honor MUNICIPALIDAD DE GUAYAQUIL, según el criterio del jurado.</p>
+
+<p>La participación implica aceptar todas las bases anteriormente expuestas. En caso de algún contratiempo, de diversa índole que afecte la seriedad y organización del XX Festival de Artes en Presencia y al Aire Libre - 2019, evento organizado por la Muy Ilustre Municipalidad de Guayaquil, la Dirección de Cultura lo resolverá.</p>
+
+<p>El rider técnico es el siguiente:</p>
+<ul>
+  <li>SONIDO DE SALA: 12 CABINAS SONORAS DE RANGO COMPLETO EAW KF850 (6 POR LADO SOBRE ANDAMIOS);</li>
+  <li>6 CABINAS SONORAS DE SUB BAJOS (3 POR LADO EN EL PISO)</li>
+  <li>CONSOLA DIGITAL YAMAHA M7CL48.</li>
+  <li>SONIDO DE ESCENARIO: 6 CABINAS SONORAS DE RANGO COMPLETO DE PERFIL BAJO (MONITORES).</li>
+  <li>BACK LINE: 2 AMPLIFICADORES DE GUITARRA MARSHALL MG100, 1 AMPLIFICADOR DE BAJO ASHDOWN, 1 BATERIA DE 5 PIEZAS YAMAHA YD.</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col-4"></div>
+    <div class="col col-3">
+    <figure style="margin-bottom:0;width:50%;">
+      <img src="//salondejulio.com/img/logo-municp.svg">
+    </figure>
+    </div>
+    <div class="col col-4"></div>
+  </div>
+</div><!-- END container BASES-->
+
+<figure class='full-width' style="margin-bottom:0;">
+  <img class="wide" src="https://res.cloudinary.com/magnvs/image/upload/c_scale,w_2000/v1503463353/faal-03_of3v4g.jpg">
+</figure>
+
+<div class="site-footer" >
+<div class="row">
+
+  <div style="text-align:center;" class="col col-12">
+  <figure><img src="/assets/dreamers.svg" style="width:20rem;"/></figure><br />
+  <p><small>MUSEO MUNICIPAL DE GUAYAQUIL</small>
+  </p>
+  </div>
+
+<div class="col col-8 offset-2">
+
+  <div class="row gutter">
+    <div class="col col-8 item">
+      <p><i class="fa fa-phone"></i>&emsp; +593-4 2594800 ext. 7402</p>
+      <p><i class="fa fa-bank"></i>&emsp; Sucre entre Chile y Pedro Carbo</p >
+      <p><i class="fa fa-calendar"></i>&emsp; Martes a sábado</p>
+      <p><i class="fa fa-clock-o"></i>&emsp; 09h00 - 17h30</p>
+      <p><i class="fa fa-bus"></i>&emsp; Parada Metrovia más cercana: Biblioteca Municipal</p>
+    </div>
+
+    <div class="col col-4 item">
+      <p>
+        <a class="twitter-share-button" href=https://twitter.com/share data-count=none data-lang=es data-size=large data-text="Musimuestras 2017" data-url="https://twitter.com/" ><i class="fa fa-twitter">&ensp;</i>Comparte
+        </a>
+      </p>
+      <p>
+        <a class="facebook-share-button" href="https://www.facebook.com/museoarteyciudadgye/" data-count=none data-lang=es data-size=large data-text="Musimuestras 2017" data-url="https://www.facebook.com/museoarteyciudadgye/" ><i class="fa fa-facebook">&ensp;</i>Encuéntranos en Facebook
+        </a>
+      </p>
+    </div>
+  </div>
+
+</div>
+
+
+<div style="text-align:center;" class="col col-12">
+
+
+     <hr id="final"/>
+       <p>
+       <a href="https://www.netlify.com"><img style="width:100px"  src="/img/netlify-color-accent.svg"/></a>&nbsp;&nbsp;
+       <a href="https://jekyllrb.com"><img style="width:85px; border-radius:3px" src="/img/jekyll-logo.svg" /></a>&nbsp;&nbsp;
+       <a href="https://html5boilerplate.com"><img style="width:42px; border-radius:3px" src="/img/html5-boilerplate.svg"/></a>
+       </p>
+       <p>
+       <a href="https://fernanz.github.io"><img style="width:55px; border-radius:3px" src="/img/fernanz-logo.svg"/></a>
+       </p>
+
+     <p>
+       DESARROLLO WEB: <a href="mailto:fmayorga.uno@gmail.com">FERNANDO MAYORGA</a><br /><span style="color:#aaa;">&copy; Programa Museo, Arte y Ciudad 2018.</span>
+     </p>
+</div>
+
+</div>
+</div>
+
+</div><!-- end of main-->
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="/js/plugins.js"></script>
+        <script src="/js/main.js"></script>
+        <script src="/js/kube.js"></script>
+        <script src="/js/wow.js"></script>
+
+        <script>
+        wow = new WOW(
+                {
+                  animateClass: 'animated',
+                  offset: 100
+                }
+        )
+        wow.init()
+        </script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100191210-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Una guía teatralizada de los hechos históricos de la ciudad"
+subtitle: 'El programa se denomina “Historia Viva” y se desarrolla hasta mañana en el Museo Municipal. Diez actores guían a los visitantes a través de cuatro salas.'
+date: 2019-11-08 00:00:00
+comment: Juan Ponce Merchán | Expreso
+image: "//res.cloudinary.com/magnvs/image/upload/v1573353784/jbcvzxqnrjfcmlzqpwjb.jpg"
+ffw: Leer más
+---
+Dos hombres prehispánicos luchan entre ellos. Uno logra vencer a su rival y lo ubica sobre una extensa roca gris para propinarle una puñalada. Es un sacrificio dedicado a una deidad.<br /><br/>El acto obedece a una recreación de la época prehispánica y que inicia el programa “Museo vivo”, que fue inaugurado la mañana de ayer, en el Museo Municipal de Guayaquil.
+
+Se trata de una guía teatralizada, dirigida por diez actores, que revelan los hechos históricos suscitados en la urbe porteña. Los escenarios son las cuatro salas del espacio: “Prehispánica”, “Conquista” y “Colonia, Independencia”. “República y Siglo XX”.
+
+Los asistentes replegaron las salas. Entre ellos habían estudiantes, amas de casa y adultos mayores. Sin embargo, del numeroso grupo resaltó un puñado de niños quienes fueron los más emocionados de conocer, de otra manera, la historia que es contada en sus distintos salones de clases.
+
+“Nunca me imaginé como era la prehistoria. Solo me sabía el acontecimiento de la llegada de los españoles”, comentó José Joaquín vargas, de diez años de edad.
+
+Luego de la etapa prehispánica, se remontó hacia el año 1687, cuando e originó la “Ciudad Nueva”, que estaba compuesta por 25 manzanas para evitar que los incendios se continúen propagando en la urbe. Además se recordó el primer censo en la ciudad, cuyo resultado fue de 12.000 habitantes.
+
+En tanto que al ingresar a la sala “Colonia, Independencia, República y Siglo XX“, dos hombres construyen una embarcación denominada “Jesús María de la Concepción”. El ambiente es el Astillero que representaba el 85% de los ingresos económicos en la urbe.
+
+El tiempo transcurre y Guayaquil busca alcanzar su independencia. Fue entonces cuando algunos actores personifican a José de Villamil y José de Antepara. Ambos alistan una reunión secreta para “luchar juntos. ¡Viva la patria! ¡Vencer o morir!”. La cita fue conocida como la “Fragua de Vulcano”.
+
+Unos minutos después aparece José Joaquín de Olmedo para firmar el acta de independencia. Los tres poderes ven hacia una luz y expresan una frase que fue coreada por los asistentes: “¡Esa es la aurora gloriosa que anuncia libertad!”.
+
+Casi al finalizar el itinerario, el comercio se cuela en la sala “Siglo XX”. Fue, además, una época donde hubo un notable desarrollo del arte y las letras.
+
+No podía faltar el personaje de Medardo Ángel Silva, quien recitó el emblemático poema “El alma en los labios”. Junto con él, los demás actores continuaron con sus personajes de la época y de fondo resonaba el clásico tema “Guayaquileño madera de guerrero”.
+
+<small>Este artículo fue publicado en la versión impresa del diario [Expreso](//www.expreso.ec) del 08 de noviembre de 2019.</small>

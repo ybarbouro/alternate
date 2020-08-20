@@ -1,0 +1,109 @@
+<div class="premiere-c">
+  <main style="margin-top:0;">
+  <div class="info1 leftie" style="padding:0;">
+      {% for post in site.posts offset: 0 limit: 1 %}
+    <div class="top-anchor">
+      {% if post.image %}
+    <a href="{{ post.url }}">
+      <figure><img src="{{ post.image }}" alt="Fotografía de {{ post.title }}"></figure></a>
+      {% endif %}
+    <h2 style="text-transform: uppercase;" class="league-sm">{{ post.title }}</h2>
+    {% if post.subtitle %}
+    <h3 class="league-gray">{{ post.subtitle }}</h3>
+    {% endif %}
+    <p> {{ post.excerpt | strip_newlines | truncate: 599 }} </p>
+    <p> {{ post.comment }} </p>
+    <p> <i class="fa fa-arrow-circle-right"></i> <a href="{{post.url}}">{{ post.ffw }}</a> </p>
+    </div>
+    {% endfor %}
+
+  </div>
+
+    <div class="info3">
+      {% assign capsulas = site.capsulas | sort: 'listing-priority' %}
+      {% for capsulas in capsulas limit: 1 %}
+
+      <div class="top-anchor1">
+        <figure class="figure-main">
+          {% if capsulas.image %}
+          <img class="figure-img" src="{{ capsulas.image }}" alt="Fotografía de {{ capsulas.title }}">
+          {% endif %}
+        </figure>
+      <div class="leftie">
+          <h2 style="text-transform: uppercase;" class="league-sm">{{ capsulas.title }}</h2>
+
+          {% if capsulas.subtitle %}
+          <h3 class="league-gray">{{ capsulas.subtitle }}</h3>
+          {% endif %}
+
+          <p>{{ capsulas.content }}</p>
+          {% if capsulas.day %}
+          <h2 style="text-transform: uppercase;" class="league-sm">{{ capsulas.day }} {% endif %}{% if capsulas.month %} <span style="font-size:0.9em;">{{ capsulas.month }}</span></h2>
+          {% endif %}
+          <ul>
+                {% if capsulas.time %}
+                    <li><p><i class="fa fa-clock-o"></i> {{ capsulas.time }}</p></li> {% endif %}
+                {% if capsulas.place %}
+                    <li><p><i class="fa fa-chevron-circle-right"></i> {{ capsulas.place }}</p></li>{% endif %}
+                {% if capsulas.link %}
+                    <li><i class="fa fa-arrow-circle-right"></i><a href="{{ capsulas.link }}"> Más información</a></li>{% endif %}
+          </ul>
+
+          <div class="cta-option">
+          <a class="btn btn-premiere" href="//www.letrasdeesperanza.online" target="blank" data-ga-category="outbound links">
+                     LEER OBRAS GANADORAS &gt;&gt;
+          </a>
+          </div>
+
+      </div>
+
+    </div>
+        {% endfor %}
+
+  </div>
+
+<div class="info4 leftie" style="padding:0;">
+  {% assign person = site.people | sort: 'listing-priority' %}
+  {% for person in person limit: 1 %}
+
+
+  <div class="top-anchor" style="padding-top:50px;">
+  <h2 class="league-five">{{ person.title }}</h2>
+
+  {% if person.subtitle %}
+  <h3 class="league-gray">{{ person.subtitle }}</h3>
+  {% endif %}
+
+  <div class="agd">{{ person.content }}<div>
+
+  {% if person.day %}
+  <h2 style="text-transform: uppercase;" class="league-sm">{{ person.day }} {% endif %}{% if person.month %} <span style="font-size:0.9em;">{{ person.month }}</span></h2>
+    {% endif %}
+  <div>
+          {% if person.time %}
+              <p><i class="fa fa-clock-o"></i> {{ person.time }}</p> {% endif %}
+          {% if person.place %}
+              <p><i class="fa fa-chevron-circle-right"></i> {{ person.place }}</p>
+    {% endif %}
+  <!-- <p><i class="fa fa-arrow-circle-right"></i> <a href="{{person.url}}">Más información</a></p>-->
+  </div>
+
+  {% if person.image %}
+  <figure><img src="{{ person.image }}" alt="Fotografía de {{ person.title }}"></figure>
+  {% endif %}
+
+
+  {% endfor %}
+
+<!-- <div class="cta-option" style="padding:0!important">
+
+<a style="color: #fff;" class="btn btn-download" href="#mas-eventos" data-ga-category="inbound links"><i class="fa fa-calendar"></i>&nbsp;&nbsp;
+           MÁS EVENTOS &raquo;
+</a>
+
+  </div> -->
+
+</div>
+</div>
+</main>
+</div>

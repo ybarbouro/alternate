@@ -1,20 +1,233 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{% include head.html %}
+    <body>
 
-  {%- include head.html -%}
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-  <body>
+        <!-- Add your site or application content here -->
+        <div>
+        <ul class="cb-slideshow">
+            <li><span>Image 01</span></li>
+            <li><span>Image 02</span></li>
+            <li><span>Image 03</span></li>
+            <li><span>Image 04</span></li>
+            <li><span>Image 05</span></li>
+            <li><span>Image 06</span></li>
+        </ul>
+        </div>
+        <div class="main">
+          <div class="container">
+            <div class="site-header clearfix" role=banner>
+              <div class=site-logo>PROGRAMA MUSEO ARTE Y CIUDAD
+              </div>
+              <ul class="site-nav inline-block-list">
+                <li>
+                  <a href="#prog" data-ga-category="Inbound links" data-ga-action="Nav click" data-ga-label="Source code">Programa
+                  </a>
+                </li>
+                <li>
+                  <a href="/people" data-ga-category="Outbound links" data-ga-action="Nav click" data-ga-label=Docs>Artistas
+                  </a>
+                </li>
+              </ul>
+            </div>
 
-    {%- include header.html -%}
+            <div class="wow bounceInDown">
+                <div  style="width: 48%; margin:0; margin-left:auto; margin-right:auto;">
+                  <img src="/img/mussim.svg"/>
+                </div>
+            </div>
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+            <div class="site-promo">
+              <h2 >Junio 2&mdash;10</h2>
+              <h2> Auditorio del Museo Municipal y<br />
+              Malecón 2000</h2>
+            </div>
 
-    {%- include footer.html -%}
+          </div><!-- end of container -->
 
-  </body>
 
+        <div class=site-section-head>
+          <div class=container>
+
+            <div class=grid>
+              <div class=grid-cell>
+                <img src="/img/logo-municp.svg"/>
+
+              </div>
+              <div class=grid-cell>
+                <img src="/img/museo.svg"/>
+
+              </div>
+              <div class=grid-cell>
+                <img src="/img/macm.svg"/>
+
+              </div>
+            </div>
+
+          </div>
+        </div>    <!-- End site section-head -->
+
+{% include tv.html %}
+
+        <div id="prog" class="site-section site-section-head">
+          <div class="container fauno-bg">
+            <h2 class="league-two" >PROGRAMA
+            </h2>
+            <div style="padding-left:30px;color:#1a1a1a;" class="grid">
+              <div class="grid-cell-left">
+                <h3><span class="star">&#x2605;
+                </span>Capítulo 1
+                    <br  />La revolución pop&mdash;disco
+                </h3>
+                <h5>Viernes 2 | 19H00 <br /> Malecón 2000 a la altura de la calle Aguirre</h5>
+                <h4>Los reyes del pop: Michael Jackson y Madonna</h4>
+                <p>Vargas Project Band</p>
+                <h3><i class="fa fa-music"></i></h3>
+                <h5>Sábado 3 | 19H00 <br /> Museo Municipal</h5>
+                <h4>Historia de la música disco</h4>
+                <p>Willy Wong and The Brothers.</p>
+              </div>
+              <div class="grid-cell-left">
+                <h3><span class="star">&#x2605;
+                </span>Capítulo 2
+                  <br  />Baladas y boleros
+                </h3>
+                <h5>Lunes 5 | 19H00 <br /> Museo Municipal</h5>
+                <h4>Baladas latinoamericanas; tributo a José José, Rocío Jurado, Rocío Dúrcal y Juan Gabriel.</h4>
+                <p>Egberto García</p>
+              </div>
+              <div class="grid-cell-left">
+                <h3><span class="star">&#x2605;
+                </span>Capítulo 3
+                  <br  /> Rock latino
+                </h3>
+                <h5>Martes 6 | 19H00 <br /> Museo Municipal</h5>
+                <h4>El rock latino de los 80; tributo a Soda Stereo, Charly García, Los Prisioneros y Los Ilegales.</h4>
+                <p>Los 80's Retroband</p>
+              </div>
+              <div class="grid-cell-left">
+                <h3><span class="star">&#x2605;
+                </span>Capítulo 4
+                  <br  />Salsa y merengue
+                </h3>
+                <h5>Miércoles 7 | 19H00 <br /> Museo Municipal</h5>
+                <h4>Tributo a Eddie Santiago, Joe Arroyo, El Gran Combo, Willie Colón.</h4>
+                <p>Saeké</p>
+
+                <h3><i class="fa fa-film"></i> Cine foro
+                </h3>
+                <h5>Miércoles 7 | 17H00 <br /> Museo Municipal</h5>
+                <h4>El Disco de los 80</h4>
+                <p>Dj invitado: Charlie Silva</p>
+                <p>El jazz de los 80: Vargas Project Band</p>
+              </div>
+              <div class="grid-cell-left">
+                <h3><span class="star">&#x2605;
+                </span>Capítulo 5
+                  <br  />Rock ecuatoriano
+                </h3>
+                <h5>Jueves 8 | 19H00 <br /> Museo Municipal</h5>
+                <h4>Tributo a las bandas ecuatorianas de los 80.</h4>
+                <p>Guayaquil Rock Band</p>
+
+                <h3><i class="fa fa-film"></i> Cine foro
+                </h3>
+                <h5>Jueves 8 | 17H00 <br /> Museo Municipal</h5>
+                <h4>El jazz de los 80</h4>
+                <p>Pianista invitado: Javier Vera</p>
+
+              </div>
+              <div class="grid-cell-left">
+                <h3><span class="star">&#x2605;
+                </span>Capítulo 6
+                  <br  />Rock inglés
+                </h3>
+                <h5>Viernes 9 | 19H00 <br /> Museo Municipal</h5>
+                <h4>El glam; Queen - George Michael.</h4>
+                <p>Willy Wong and The Brothers</p>
+                <h3><i class="fa fa-music"></i></h3>
+                <h5>Sábado 10 | 19H00 <br /> Malecón 2000</h5>
+                <h4>Rock psicodélico: Pink Floyd</h4>
+                <p>Banda Jefe Vergara - Juan Carlos Vergara</p>
+              </div>
+
+            </div>
+          </div>
+        </div><!-- end site-section with grid -->
+
+{{ content }}
+
+{% include vid.html %}
+
+{% include musiquillos.html %}
+
+        <div class="w100 site-section-nm">
+          <figure class="wow fadeInUp">
+              <img src="/img/afiche.jpg"/>
+          </figure>
+        </div>
+
+{% include aside.html %}
+
+{% include footer.html %}
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="/js/plugins.js"></script>
+        <script src="/js/main.js"></script>
+        <script src="/js/kube.js"></script>
+        <script src="/js/wow.js"></script>
+        <script src="/js/glitch.js"></script>
+
+        <script>
+        wow = new WOW(
+                {
+                  animateClass: 'animated',
+                  offset: 100
+                }
+        )
+        wow.init()
+        </script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100191210-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+        <script>
+        !function(t,e){
+            "use strict";
+            function a(t,n){
+              return t.hasAttribute(n)===!0?t:t.parentNode!==r.body?a(t.parentNode,n):e}
+            function n(n){
+              var o,i,r,c,g,u=a(n.target,"data-ga-action"),l=!1;
+              u!==e&&(o=u.getAttribute("data-ga-action")||e,i=u.getAttribute("data-ga-category")||e,r=u.getAttribute("data-ga-label")||e,c=u.getAttribute("href"),g=parseInt(u.getAttribute("data-ga-value"),10)||e,ga!==e&&i!==e&&o!==e&&(n.preventDefault(),"Download"!==i&&n.ctrlKey!==!0&&n.metaKey!==!0&&2!==n.which||(l=!0,t.open(c)),function(a){
+                var n;
+                ga("send","event",i,o,r,g,{
+                  hitCallback:function(){
+                    l===!1&&(n!==e&&clearTimeout(n),t.location=a)}
+                }
+                  ),n=setTimeout(function(){
+                  l===!1&&(t.location.href=a)}
+                                 ,1e3)}
+        (c)))}
+            function i(){
+              !function(t,e,a){
+                var n,o=t.getElementsByTagName(e)[0];
+                t.getElementById(a)||(n=t.createElement(e),n.id=a,n.src="//platform.twitter.com/widgets.js",o.parentNode.insertBefore(n,o))}
+              (r,"script","twitter-wjs")}
+            var r=t.document;
+            o(),t.onload=i}
+          (window)
+          </script>
+
+    </body>
 </html>

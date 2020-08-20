@@ -1,0 +1,110 @@
+{% include head.html %}
+    <body >
+
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="main-c">
+
+          <div class="container">
+            <div class="site-header clearfix" role=banner>
+              <div class="site-logo">PROGRAMA MUSEO ARTE Y CIUDAD
+              </div>
+              <ul class="site-navi inline-block-list">
+                <li>
+                  <a href="/" data-ga-category="Inbound links" data-ga-action="Nav click" data-ga-label="Source code">Inicio
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </div><!-- end of container -->
+
+        <div class="site-section-head">
+          <section>
+            <article >
+
+              {% if page.image %}
+              <img style="border-radius:5px;" src="{{ page.image }}" alt="Fotografía de {{ page.title }}">
+              {% endif %}
+
+              <div style="padding-top:3em;" >
+                <p style="text-align:right;">{{ page.comment }}<br />
+                <small>{{ page.date }}</small></p>
+              </div>
+
+            </article>
+            <article>
+              <header class="intro person-header" style="max-width: 75%;">
+                <h1>{{ page.title }}</h1>
+              </header>
+              <div style="column-count: 2;">
+
+              {{ content }}
+              </div>
+
+            </article>
+          </section>
+        </div>
+
+{% include footer.html %}
+
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+  <script src="/js/plugins.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/kube.js"></script>
+  <script src="/js/wow.js"></script>
+
+  <script>
+  wow = new WOW(
+          {
+            animateClass: 'animated',
+            offset: 100
+          }
+  )
+  wow.init()
+  </script>
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100191210-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  <script>
+  !function(t,e){
+      "use strict";
+      function a(t,n){
+        return t.hasAttribute(n)===!0?t:t.parentNode!==r.body?a(t.parentNode,n):e}
+      function n(n){
+        var o,i,r,c,g,u=a(n.target,"data-ga-action"),l=!1;
+        u!==e&&(o=u.getAttribute("data-ga-action")||e,i=u.getAttribute("data-ga-category")||e,r=u.getAttribute("data-ga-label")||e,c=u.getAttribute("href"),g=parseInt(u.getAttribute("data-ga-value"),10)||e,ga!==e&&i!==e&&o!==e&&(n.preventDefault(),"Download"!==i&&n.ctrlKey!==!0&&n.metaKey!==!0&&2!==n.which||(l=!0,t.open(c)),function(a){
+          var n;
+          ga("send","event",i,o,r,g,{
+            hitCallback:function(){
+              l===!1&&(n!==e&&clearTimeout(n),t.location=a)}
+          }
+            ),n=setTimeout(function(){
+            l===!1&&(t.location.href=a)}
+                           ,1e3)}
+  (c)))}
+      function i(){
+        !function(t,e,a){
+          var n,o=t.getElementsByTagName(e)[0];
+          t.getElementById(a)||(n=t.createElement(e),n.id=a,n.src="//platform.twitter.com/widgets.js",o.parentNode.insertBefore(n,o))}
+        (r,"script","twitter-wjs")}
+      var r=t.document;
+      o(),t.onload=i}
+    (window)
+    </script>
+
+    </body>
+</html>

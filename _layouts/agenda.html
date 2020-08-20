@@ -1,0 +1,238 @@
+<!doctype html>
+<html class="no-js" lang="es">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Dirección de Cultura - Guayaquil</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+        <link href="/css/kube.css" rel="stylesheet">
+        <link href="/css/irish.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Opens+Sans" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200" rel="stylesheet" />
+        <style>
+
+        body {
+          margin: 0;
+          background: #eee;
+        }
+
+        ul {
+          margin-right: 10px;
+          margin-left: 20px;
+          padding: 10px;
+        }
+        li {
+          font-family:"Open Sans", sans-serif;
+          padding-bottom: 10px;
+        }
+        h1 {
+            font-family: "Times", serif;
+            font-weight: bold;
+            font-size: 3rem;
+        }
+
+        h2 {
+            font-family: "Times", serif;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        h5 {
+          font-family: "Impact", sans-serif;
+          font-weight: bold;
+          font-size: 1.7em;
+          margin:10px;
+        }
+        .star{
+          color:#00B0FF;
+        }
+
+        .header {
+          text-align: center;
+          word-spacing: 10px;
+          background-color:#131a22;
+        }
+
+        .hero {
+          text-align: center;
+          padding: 1.5em 0 1.5em 0;
+          background-color: orange;
+          margin:0;
+          width: 100vw;
+
+        }
+        .hero h1 {
+          font-family: "Impact", sans-serif;
+          font-weight: bold;
+          font-size: 2em;
+          line-height: 1em;
+          letter-spacing: 1px;
+          color: brown;
+        }
+        .main-content {
+          -webkit-columns: 3 300px;
+             -moz-columns: 3 300px;
+                  columns: 3 300px;
+          -webkit-column-rule: 1px solid #aaa;
+             -moz-column-rule: 1px solid #aaa;
+                       column: 1px solid #aaa;
+          margin: 30px;
+          text-align:justify;
+        }
+        .main-content p {
+          padding: 0 10px;
+          font-family:"Open Sans", sans-serif;
+        }
+        .main-content h3{
+          font-family: "Impact", sans-serif;
+          font-weight: 400;
+          font-size: 1.5em;
+          line-height: 1.5em;
+          letter-spacing: 2px;
+          text-align: center;
+          background-color: orange;
+          color: brown;
+          border-radius: 5px;
+        }
+        .main-content h4{
+          font-family: "Impact", sans-serif;
+          font-weight: 400;
+          font-size: 1.5em;
+          line-height: 1.4em;
+          text-align: center;
+          color: #131a22;
+        }
+
+        .main-content > h5 {
+          font-family: "Impact", sans-serif;
+          font-weight: 700;
+          font-size: 1.1em;
+          letter-spacing: 1px;
+        }
+
+        .main-content figure{
+          width: 200px;
+          margin: 0;
+          margin-right: auto;
+          margin-left: auto;
+        }
+        .intro {
+          margin: 50px 30px;
+          text-align: justify;
+        }
+
+        .mustach {
+          float:left;
+          display:inline-block;
+          width:45%;
+          text-align: center;
+
+        }
+        .mustach p {
+          font-size: 12px;
+          font-weight: bold;
+        }
+        .mustach-r {
+          float:right;
+          display:inline-block;
+          width:45%;
+          text-align: center;
+        }
+
+        .mustach-r p {
+          font-size: 12px;
+          font-weight: bold;
+        }
+        .main-content img {
+          width: 30%;
+       	  margin-bottom: 0.5em;
+          border-radius: 50%;
+          left: 30%;
+          position: relative;
+        }
+
+ @media screen and (max-width: 750px){
+	 .header {
+          background-size: 30%;
+	 }
+	 .hero h1 {
+          font-size: 2em;
+          line-height: 1.3em;
+          letter-spacing: 1px;
+     }
+	 h1 {
+	 		font-size: 2rem;
+        }
+
+   h2 {
+            font-size: 1.5rem;
+        }
+
+ }
+
+ @media screen and (max-width: 420px){
+	 .header {
+          background-size: 50%;
+     }
+     .hero h1 {
+          font-size: 1.5em;
+          line-height: 1em;
+          letter-spacing: 1px;
+     }
+
+     h1 {
+	 		font-size: 1.5rem;
+        }
+
+     h2 {
+            font-size: 1rem;
+        }
+
+ }
+
+</style>
+      </head>
+<body>
+
+<div class="row header">
+    <div class="col col-12" style="margin: 30px;">
+	   <a href="/" class="button upper outline" style="float:left;" role="button">INICIO</a>
+    </div>
+
+    <div class="col col-6 offset-3">
+    <figure style="margin-bottom:0;">
+      <img src="/assets/teatrom-19.svg">
+    </figure>
+    </div>
+
+    <div class="col col-12 header">
+	    <h5 style="color:purple; line-height: 2rem;">
+        Museo Municipal de Guayaquil - Entrada libre
+      </br/></h5>
+    </div>
+
+</div>
+<div class="hero">
+  <h1>7 - 20 noviembre del 2019</h1>
+</div>
+
+<article class="main-content">
+
+{{ content }}
+
+</article>
+
+<figure class='full-width' style="margin-bottom:-10px; !important;">
+  <img class="wide" src="https://res.cloudinary.com/magnvs/image/upload/v1522811906/temporary_timbbp.jpg">
+</figure>
+
+
+<div class="main">
+
+{% include footer.html %}
+
+</body>
+</html>

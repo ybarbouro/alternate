@@ -1,38 +1,57 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<div class="site-footer" >
+<div class="row">
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <figure style="width: 100px;">
-        <img src="/assets/fernanz-logo.svg"/>
-      </figure>
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p class="footer-description">{{- site.description | escape -}}</p>
-      </div>
-    </div>
-
+  <div style="text-align:center;" class="col col-12">
+  <figure><img src="/assets/dreamers.svg" style="width:20rem;"/></figure><br />
+  <p><small>MUSEO MUNICIPAL DE GUAYAQUIL</small>
+  </p>
   </div>
 
-</footer>
+<div class="col col-8 offset-2">
+
+  <div class="row gutter">
+    <div class="col col-8 item">
+      <p><i class="fa fa-phone"></i>&emsp; +593-4 2594800 ext. 7402</p>
+      <p><i class="fa fa-bank"></i>&emsp; Sucre entre Chile y Pedro Carbo</p >
+      <p><i class="fa fa-calendar"></i>&emsp; Martes a sábado</p>
+      <p><i class="fa fa-clock-o"></i>&emsp; 09h00 - 17h30</p>
+      <p><i class="fa fa-bus"></i>&emsp; Parada Metrovia más cercana: Biblioteca Municipal</p>
+    </div>
+
+    <div class="col col-4 item">
+      <p>
+        <a class="twitter-share-button" href=https://twitter.com/share data-count=none data-lang=es data-size=large data-text="Musimuestras 2017" data-url="https://twitter.com/" ><i class="fa fa-twitter">&ensp;</i>Comparte
+        </a>
+      </p>
+      <p>
+        <a class="facebook-share-button" href="https://www.facebook.com/museoarteyciudadgye/" data-count=none data-lang=es data-size=large data-text="Musimuestras 2017" data-url="https://www.facebook.com/museoarteyciudadgye/" ><i class="fa fa-facebook">&ensp;</i>Encuéntranos en Facebook
+        </a>
+      </p>
+    </div>
+  </div>
+
+</div>
+
+
+<div style="text-align:center;" class="col col-12">
+
+
+     <hr id="final"/>
+       <p>
+       <a href="https://www.netlify.com"><img style="width:100px"  src="/img/netlify-color-accent.svg"/></a>&nbsp;&nbsp;
+       <a href="https://jekyllrb.com"><img style="width:85px; border-radius:3px" src="/img/jekyll-logo.svg" /></a>&nbsp;&nbsp;
+       <a href="https://html5boilerplate.com"><img style="width:42px; border-radius:3px" src="/img/html5-boilerplate.svg"/></a>
+       </p>
+       <p>
+       <a href="https://fernanz.github.io"><img style="width:55px; border-radius:3px" src="/img/fernanz-logo.svg"/></a>
+       </p>
+
+     <p>
+       DESARROLLO WEB: <a href="mailto:fmayorga.uno@gmail.com">FERNANDO MAYORGA</a><br /><span style="color:#aaa;">&copy; Programa Museo, Arte y Ciudad 2018.</span>
+     </p>
+</div>
+
+</div>
+</div>
+
+</div><!-- end of main-->

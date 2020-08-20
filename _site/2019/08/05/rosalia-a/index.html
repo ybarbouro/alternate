@@ -1,0 +1,539 @@
+<!doctype html>
+<html class="no-js" lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Museo Arte y Ciudad</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Facebook OpenGraph Info - Page Specific - Variables listed on each page -->
+	      <meta property="og:title" content="Museo Municipal de Guayaquil" />
+        <meta property="og:type" content="website">
+	      <meta property="og:image" content="//res.cloudinary.com/magnvs/image/upload/v1522811906/temporary_timbbp.jpg" />
+	      <meta property="og:url" content="//www.museoarteyciudad.com" />
+	      <meta property="og:description" content="Abrimos de martes a sábado de 09h00 a 17h30. ¡Conoce más sobre nuestras actividades aquí!" />
+
+	      <!-- Twitter Card Tags -->
+	      <meta name="twitter:card" content="summary_large_image" />
+	      <meta name="twitter:site" content="@MUMG1" />
+        <meta name="twitter:creator" content="@fernanz">
+	      <meta name="twitter:title" content="Museo Municipal de Guayaquil" />
+	      <meta name="twitter:description" content="Abrimos de martes a sábado de 09h00 a 17h30. ¡Conoce más sobre nuestras actividades aquí" />
+	      <meta name="twitter:image" content="//res.cloudinary.com/magnvs/image/upload/v1522811906/temporary_timbbp.jpg" />
+
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+        <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200" rel="stylesheet">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/griddlysq.css">
+        <link rel="stylesheet" href="/css/galeria.css">
+        <link rel="stylesheet" href="/css/irish.css">
+        <link rel="stylesheet" href="/css/kube.css">
+        <link rel="stylesheet" href="/css/magazine.css">
+        <link rel="stylesheet" href="/css/fonts.css">
+        <link rel="stylesheet" href="/css/heritage.css">
+        <link rel="stylesheet" href="/css/slides.css">
+        <link rel="stylesheet" href="/css/animate.css">
+        <link rel="stylesheet" href="/css/jquery.bxslider.css">
+        <link rel="stylesheet" href="/css/modal-video.min.css">
+        <link rel="stylesheet" type="text/css" href="/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+   <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+        <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+        <style>
+/* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+section { display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+article {
+margin: 1rem;
+-ms-flex: 1 0 0px;
+flex: 1;
+/* shortcut for "flex-grow: 1". Note that it MUST be a unitless value to work; defined with a unit (e.g. flex: 1px) the shortcut would alter the flex-basis property. */
+}
+article.breaking {
+-ms-flex-grow: 2;
+flex: 2;
+/* shortcut for "flex-grow: 2" */
+}
+
+article.columnas div {
+column-count: 3;
+}
+
+article.columnas h1 {
+font-size: 2.7rem;
+line-height: 2.7rem;
+padding-bottom: 1rem;
+margin-top: 0;
+max-width: 65%;
+}
+
+article.columnas h2 {
+font-size: 2.3rem;
+line-height: 2.3rem;
+padding-bottom: 1rem;
+margin-top: 0;
+max-width: 55%;
+text-align: left;
+color: #777;
+}
+
+article.columnas h3 {
+text-align: left;
+font-size: 1.3rem;
+}
+
+article.columnas p {
+font-size:.9rem;
+font-family: 'Open Sans', sans-serif;
+}
+
+article.tarjetabg {
+background: url(/img/papers.png);
+padding: 5px 15px;
+}
+
+
+.cardex {
+  position: relative;
+  margin: 0;
+  padding: 15px 15px;
+  margin-left: -15px;
+  margin-right: -15px;
+  /* background-image: linear-gradient(to top, #243949 0%, rgba(46, 87, 103, 0.7) 100%);*/
+  height: 90%;
+  color:#fff;
+}
+
+.cardex > img {
+mix-blend-mode:normal;
+}
+
+article img {
+width: 100%; height: auto;
+border-radius: 7px;
+}
+
+article blockquote > p{
+ color: #666;
+}
+
+img.destacada {
+float: left;
+width: 100%;
+height: auto;
+border-radius: 7px;
+}
+
+article h1, article h2, article h3 { font-family: "Oswald", sans-serif; }
+article h1 {
+font-size: 1.7rem;
+line-height: 1.3;
+text-align: left;
+text-transform: uppercase;
+}
+article h2, article h3 {
+font-size: 1rem;
+text-align: right;
+line-height: 1.3;
+margin: 1.3rem 0;
+font-weight: 300;
+}
+article h3 {
+font-size: 1.1rem;
+}
+article p {
+line-height: 1.3;
+text-align: left;
+}
+
+@media screen and (max-width: 750px) {
+
+section {
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+}
+
+.cardex {
+  position: relative;
+  margin-bottom: -15px;
+  height: 100%;
+}
+
+img.destacada {
+float: none;
+width: 100vw;
+margin-bottom: 1.7rem;
+margin-left: 0;
+}
+
+article.columnas div {
+column-count: 1;
+}
+
+article.columnas h1{
+max-width: 83%;
+}
+
+article.columnas h2{
+max-width: 83%;
+}
+}
+
+text {
+  font-size: 315px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.ct-series-b {
+  fill:#bada55;
+  stroke: white;
+  stroke-width: 4px;
+}
+  </style>
+</head>
+
+    <body>
+
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="noise">
+
+          <div class="container">
+            <div class="site-header clearfix" role=banner>
+              <div class=site-logo>MUSEO ARTE Y CIUDAD
+              </div>
+              <ul class="site-navi inline-block-list">
+                <li>
+                  <a href="/" data-ga-category="Inbound links" data-ga-action="Nav click" data-ga-label="Source code">Inicio
+                  </a>
+                </li>
+                <li>
+                  <a href="/faal" data-ga-category="Inbound links" data-ga-action="Nav click" data-ga-label="Source code">FAAL 2018
+                  </a>
+                </li>
+                <li>
+                  <a href="#" data-ga-category="Inbound links" data-ga-action="Nav click" data-ga-label="Source code">
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </div><!-- end of container -->
+
+        <div class="site-section-head">
+
+          <div class="aside-b">
+<div class="row">
+
+  <div class="col col-6 offset-3">
+  <figure style="margin-bottom:0;">
+    <img src="/assets/main-logos.svg">
+  </figure>
+  </div>
+
+</div>
+</div>
+
+
+          <div class="container" style="max-width: 775px;">
+          <section>
+            <article>
+              <h1>Cuadro de Rosalía Arteaga, como presidenta de Ecuador, se incluyó en Museo Municipal de Guayaquil</h1>
+
+              
+              <img style="border-radius:7px;margin:20px 0 60px 0;" src="//res.cloudinary.com/magnvs/image/upload/v1565101843/galeria-pres_u4ic0g.jpg" alt="Fotografía de Cuadro de Rosalía Arteaga, como presidenta de Ecuador, se incluyó en Museo Municipal de Guayaquil">
+              
+
+              <p>El cuadro de Rosalía Arteaga fue incluido en la Sala de Presidentes, en el museo municipal de Guayaquil. Así lo informó la alcaldesa de la urbe porteña, Cynthia Viteri.<br /><br /> <em>“La historia del país debe ser reconocida de forma sincera y completa”</em>, posteó la alcaldesa en su cuenta en <strong>Twitter</strong> y acompañó el mensaje con una gráfica en la que se observa a Arteaga con la banda presidencial, entre los cuadros de los expresidentes Abdalá Bucaram y Fabián Alarcón.</p>
+
+<p>El post fue colgado a las 18:56 del 4 de agosto del 2019. La tarde de este día, 5 de agosto, la publicación recibió más de 2 000 ‘me gusta’ y más de 400 retuits.</p>
+
+<blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">Incluimos el cuadro de <a href="https://twitter.com/rosaliaarteaga?ref_src=twsrc%5Etfw">@rosaliaarteaga</a> en la Sala de Presidentes del Museo Municipal de Guayaquil. La historia del país debe ser conocida de forma sincera y completa. <a href="https://t.co/3xGxLEMuXI">pic.twitter.com/3xGxLEMuXI</a></p>&mdash; Cynthia Viteri (@CynthiaViteri6) <a href="https://twitter.com/CynthiaViteri6/status/1158164936025092096?ref_src=twsrc%5Etfw">4 de agosto de 2019</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Una de las reacciones provino de la propia Arteaga. “Gracias por el reconocimiento que hace justicia a la historia de las mujeres ecuatorianas”, escribió en respuesta a la publicación de Viteri. Así mismo, el gobierno de Lenín Moreno había colocado en 2018 la imagen de Arteaga en el Salón Amarillo del Palacio de Carondelet Así se le rindió homenaje como la primera presidente constitucional de la República del Ecuador. La azuaya ostentó ese cargo entre el 6 y 11 de febrero de 1997 tras la caída del gobierno de Abdalá Bucaram (1996-1997).</p>
+
+<p><small>Este artículo fue publicado en la versión digital del diario <a href="//www.elcomercio.com/actualidad/cuadro-rosalia-arteaga-museo-guayaquil.html">El Comercio</a> del 05 de agosto de 2019.</small></p>
+
+
+            </article>
+          </section>
+
+          <div>
+              <h3>Otros artículos</h3>
+                <ul style="list-style-type:none">
+            
+                
+                <li><a href="/2020/08/13/letras-esperanza-ganadores/">Anunciamos los ganadores del concurso nacional de literatura "Letras de esperanza"</a></li>
+             
+          
+                
+                <li><a href="/2020/06/22/reliquias-el-universo/">Armas y documentos, entre las reliquias que guarda Museo Municipal de Guayaquil y evocan gesta libertadora de 1820</a></li>
+             
+          
+                
+                <li><a href="/2020/06/03/letras-esperanza/">Letras de esperanza</a></li>
+             
+          
+                
+                <li><a href="/2020/05/28/digifoto-ganadores/">Anunciamos los ganadores del concurso de fotografía digital "Mi familia, mi hogar"</a></li>
+             
+          
+                
+                <li><a href="/2020/05/18/dim20/">Día Internacional del Museo se vive desde el confinamiento</a></li>
+             
+          
+                
+                <li><a href="/2020/05/07/concurso-digifoto/">Bases de concurso</a></li>
+             
+          
+                
+                <li><a href="/2020/04/10/voleflix/">Voleflix!</a></li>
+             
+          
+                
+                <li><a href="/2020/03/23/el_palacio_municipal/">El Palacio Municipal</a></li>
+             
+          
+                
+                <li><a href="/2020/03/18/top-podcast-museo/">Los más escuchados de nuestro podcast</a></li>
+             
+          
+                
+                <li><a href="/2020/03/10/mujeres-el-comercio/">El Museo Municipal de Guayaquil revisita dos décadas de arte femenino</a></li>
+             
+          
+                
+                <li><a href="/2020/03/10/vista-previa/">Trece pintores independientes se juntan para hacer una ‘vista previa’ del arte ‘guayaco’</a></li>
+             
+          
+                
+                <li><a href="/2020/03/07/mujeres-el-universo/">Pintura y escultura se fusionan en muestra que se realizará en Guayaquil</a></li>
+             
+          
+                
+                <li><a href="/2020/03/05/illescas-expreso/">La denuncia social plasmada en 31 obras</a></li>
+             
+          
+                
+                <li><a href="/2020/03/03/illescas-eluniverso/">Hernán Illescas muestra su ‘Imperfecta belleza’ en Guayaquil</a></li>
+             
+          
+                
+                <li><a href="/2020/02/27/cosmovision-amazonica/">Cosmovisión de los pueblos amazónicos llena sala del MMDG</a></li>
+             
+          
+                
+                <li><a href="/2020/02/07/memoria-viva-jj/">Sigue viva la memoria de Julio Jaramillo</a></li>
+             
+          
+                
+                <li><a href="/2020/02/07/cargnino-eluniverso/">Sugerente y visionaria, la obra de Enrico Cargnino</a></li>
+             
+          
+                
+                <li><a href="/2020/02/06/cargnino-elcomercio/">El artista Enrico Cargnino exalta temple visinario de lo abstracto</a></li>
+             
+          
+                
+                <li><a href="/2020/01/25/charlas-estudiantes-28/">Historia llega a colegios con museo itinerante</a></li>
+             
+          
+                
+                <li><a href="/2020/01/18/charlas-bicentenario-estudiantes/">A planteles se irá a dar charlas del bicentenario de Guayaquil</a></li>
+             
+          
+                
+                <li><a href="/2020/01/14/capacitacion-datos-bicentenario/">Se dictará una capacitación para recordar datos del Bicentenario</a></li>
+             
+          
+                
+                <li><a href="/2020/01/07/constante-expreso/">Los Constante</a></li>
+             
+          
+                
+                <li><a href="/2019/12/18/malecon-simon-bolivar/">Proponen cambiar de nombre a la avenida Malecón Simón Bolívar</a></li>
+             
+          
+                
+                <li><a href="/2019/11/10/teatromuestras/">Teatromuestras enfoca escenas experimentales</a></li>
+             
+          
+                
+                <li><a href="/2019/11/07/historia-viva/">Una guía teatralizada de los hechos históricos de la ciudad</a></li>
+             
+          
+                
+                <li><a href="/2019/10/31/faal-elcomercio/">El artista guayaquileño Luis Reinoso evocó el paro en una ‘firma’</a></li>
+             
+          
+                
+                <li><a href="/2019/10/23/arqueologia-comic/">Una 'arqueología' del cómic nacional se expone en Guayaquil</a></li>
+             
+          
+                
+                <li><a href="/2019/10/23/faal-elcomercio/">Pintura ganadora del Faal 2019 disimula policías enfrentados con manifestantes</a></li>
+             
+          
+                
+                <li><a href="/2019/10/22/faal-universo/">Continúa la fiesta de las artes en Guayaquil</a></li>
+             
+          
+                
+                <li><a href="/2019/10/20/faal-universo/">El FAAL, puerta al éxito para exponentes del arte</a></li>
+             
+          
+                
+                <li><a href="/2019/10/17/faal-elcomercio/">Pinturas del Faal dialogan con las manifestaciones de octubre del 2019</a></li>
+             
+          
+                
+                <li><a href="/2019/10/16/faal-retorna/">Vigésima edición de FAAL retoma sus actividades</a></li>
+             
+          
+                
+                <li><a href="/2019/10/01/museos-locales/">Rincones de Guayaquil que recrean historia y fauna local</a></li>
+             
+          
+                
+                <li><a href="/2019/09/25/carlos-endara/">El legado fotográfico de Carlos Endara en museo</a></li>
+             
+          
+                
+                <li><a href="/2019/09/19/signos-del-tiempo/">39 pinturas revelan los signos del tiempo y el alma</a></li>
+             
+          
+                
+                <li><a href="/2019/09/18/museo-arcilla/">La historia del país en murales de arcilla</a></li>
+             
+          
+                
+                <li><a href="/2019/09/05/gonzenbach/">Federico Gonzenbach inauguró una muestra pictórica abstracta</a></li>
+             
+          
+                
+                <li><a href="/2019/08/20/balsa-humboldt/">Recrean la balsa con la que Alexander Von Humboldt navegó el río Daule</a></li>
+             
+          
+                
+                <li class="current-post">Cuadro de Rosalía Arteaga, como presidenta de Ecuador, se incluyó en Museo Municipal de Guayaquil</li>
+                
+          
+                
+                <li><a href="/2019/07/27/hernan-pacurucu-elcomercio/">El buen arte tiene que ser tóxico</a></li>
+             
+          
+                
+                <li><a href="/2019/07/24/diana-gardeneira-eluniverso/">Diana García Correa&colon; ‘Queremos caminar por la calle tranquilas, sin miedo’</a></li>
+             
+          
+                
+                <li><a href="/2019/07/23/diana-gardeneira-telegrafo/">Diana Gardeneira es la sexta mujer en ganar el Salón de Julio en 60 años</a></li>
+             
+          
+            </ul>
+              </div>
+        </div>
+  </div>
+<div class="site-footer" >
+<div class="row">
+
+  <div style="text-align:center;" class="col col-12">
+  <figure><img src="/assets/dreamers.svg" style="width:20rem;"/></figure><br />
+  <p><small>MUSEO MUNICIPAL DE GUAYAQUIL</small>
+  </p>
+  </div>
+
+<div class="col col-8 offset-2">
+
+  <div class="row gutter">
+    <div class="col col-8 item">
+      <p><i class="fa fa-phone"></i>&emsp; +593-4 2594800 ext. 7402</p>
+      <p><i class="fa fa-bank"></i>&emsp; Sucre entre Chile y Pedro Carbo</p >
+      <p><i class="fa fa-calendar"></i>&emsp; Martes a sábado</p>
+      <p><i class="fa fa-clock-o"></i>&emsp; 09h00 - 17h30</p>
+      <p><i class="fa fa-bus"></i>&emsp; Parada Metrovia más cercana: Biblioteca Municipal</p>
+    </div>
+
+    <div class="col col-4 item">
+      <p>
+        <a class="twitter-share-button" href=https://twitter.com/share data-count=none data-lang=es data-size=large data-text="Musimuestras 2017" data-url="https://twitter.com/" ><i class="fa fa-twitter">&ensp;</i>Comparte
+        </a>
+      </p>
+      <p>
+        <a class="facebook-share-button" href="https://www.facebook.com/museoarteyciudadgye/" data-count=none data-lang=es data-size=large data-text="Musimuestras 2017" data-url="https://www.facebook.com/museoarteyciudadgye/" ><i class="fa fa-facebook">&ensp;</i>Encuéntranos en Facebook
+        </a>
+      </p>
+    </div>
+  </div>
+
+</div>
+
+
+<div style="text-align:center;" class="col col-12">
+
+
+     <hr id="final"/>
+       <p>
+       <a href="https://www.netlify.com"><img style="width:100px"  src="/img/netlify-color-accent.svg"/></a>&nbsp;&nbsp;
+       <a href="https://jekyllrb.com"><img style="width:85px; border-radius:3px" src="/img/jekyll-logo.svg" /></a>&nbsp;&nbsp;
+       <a href="https://html5boilerplate.com"><img style="width:42px; border-radius:3px" src="/img/html5-boilerplate.svg"/></a>
+       </p>
+       <p>
+       <a href="https://fernanz.github.io"><img style="width:55px; border-radius:3px" src="/img/fernanz-logo.svg"/></a>
+       </p>
+
+     <p>
+       DESARROLLO WEB: <a href="mailto:fmayorga.uno@gmail.com">FERNANDO MAYORGA</a><br /><span style="color:#aaa;">&copy; Programa Museo, Arte y Ciudad 2018.</span>
+     </p>
+</div>
+
+</div>
+</div>
+
+</div><!-- end of main-->
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="/js/plugins.js"></script>
+        <script src="/js/main.js"></script>
+        <script src="/js/kube.js"></script>
+        <script src="/js/wow.js"></script>
+
+        <script>
+        wow = new WOW(
+                {
+                  animateClass: 'animated',
+                  offset: 100
+                }
+        )
+        wow.init()
+        </script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100191210-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    </body>
+</html>

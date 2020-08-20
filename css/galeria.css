@@ -1,0 +1,48 @@
+.galeria ul {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.galeria li {
+  height: 40vh;
+  flex-grow: 1;
+}
+
+.galeria li:last-child {
+  flex-grow: 10;
+}
+
+.galeria img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+@media (max-aspect-ratio: 1 / 1) {
+.galeria li {
+    height: 30vh;
+  }
+}
+@media (max-height: 480px) {
+.galeria li {
+    height: 80vh;
+  }
+}
+@media (max-aspect-ratio: 1 / 1) and (max-width: 480px) {
+ .galeria ul{
+    flex-direction: row;
+  }
+
+  .galeria li {
+    height: auto;
+    width: 100%;
+  }
+
+  .galeria img {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+  }
+}

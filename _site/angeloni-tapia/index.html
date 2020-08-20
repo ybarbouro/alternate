@@ -1,0 +1,547 @@
+<!doctype html>
+<html class="no-js" lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Museo Arte y Ciudad</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Facebook OpenGraph Info - Page Specific - Variables listed on each page -->
+	      <meta property="og:title" content="Museo Municipal de Guayaquil" />
+        <meta property="og:type" content="website">
+	      <meta property="og:image" content="//res.cloudinary.com/magnvs/image/upload/v1522811906/temporary_timbbp.jpg" />
+	      <meta property="og:url" content="//www.museoarteyciudad.com" />
+	      <meta property="og:description" content="Abrimos de martes a sábado de 09h00 a 17h30. ¡Conoce más sobre nuestras actividades aquí!" />
+
+	      <!-- Twitter Card Tags -->
+	      <meta name="twitter:card" content="summary_large_image" />
+	      <meta name="twitter:site" content="@MUMG1" />
+        <meta name="twitter:creator" content="@fernanz">
+	      <meta name="twitter:title" content="Museo Municipal de Guayaquil" />
+	      <meta name="twitter:description" content="Abrimos de martes a sábado de 09h00 a 17h30. ¡Conoce más sobre nuestras actividades aquí" />
+	      <meta name="twitter:image" content="//res.cloudinary.com/magnvs/image/upload/v1522811906/temporary_timbbp.jpg" />
+
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+        <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200" rel="stylesheet">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/griddlysq.css">
+        <link rel="stylesheet" href="/css/galeria.css">
+        <link rel="stylesheet" href="/css/irish.css">
+        <link rel="stylesheet" href="/css/kube.css">
+        <link rel="stylesheet" href="/css/magazine.css">
+        <link rel="stylesheet" href="/css/fonts.css">
+        <link rel="stylesheet" href="/css/heritage.css">
+        <link rel="stylesheet" href="/css/slides.css">
+        <link rel="stylesheet" href="/css/animate.css">
+        <link rel="stylesheet" href="/css/jquery.bxslider.css">
+        <link rel="stylesheet" href="/css/modal-video.min.css">
+        <link rel="stylesheet" type="text/css" href="/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+   <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+        <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+        <style>
+/* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+section { display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+article {
+margin: 1rem;
+-ms-flex: 1 0 0px;
+flex: 1;
+/* shortcut for "flex-grow: 1". Note that it MUST be a unitless value to work; defined with a unit (e.g. flex: 1px) the shortcut would alter the flex-basis property. */
+}
+article.breaking {
+-ms-flex-grow: 2;
+flex: 2;
+/* shortcut for "flex-grow: 2" */
+}
+
+article.columnas div {
+column-count: 3;
+}
+
+article.columnas h1 {
+font-size: 2.7rem;
+line-height: 2.7rem;
+padding-bottom: 1rem;
+margin-top: 0;
+max-width: 65%;
+}
+
+article.columnas h2 {
+font-size: 2.3rem;
+line-height: 2.3rem;
+padding-bottom: 1rem;
+margin-top: 0;
+max-width: 55%;
+text-align: left;
+color: #777;
+}
+
+article.columnas h3 {
+text-align: left;
+font-size: 1.3rem;
+}
+
+article.columnas p {
+font-size:.9rem;
+font-family: 'Open Sans', sans-serif;
+}
+
+article.tarjetabg {
+background: url(/img/papers.png);
+padding: 5px 15px;
+}
+
+
+.cardex {
+  position: relative;
+  margin: 0;
+  padding: 15px 15px;
+  margin-left: -15px;
+  margin-right: -15px;
+  /* background-image: linear-gradient(to top, #243949 0%, rgba(46, 87, 103, 0.7) 100%);*/
+  height: 90%;
+  color:#fff;
+}
+
+.cardex > img {
+mix-blend-mode:normal;
+}
+
+article img {
+width: 100%; height: auto;
+border-radius: 7px;
+}
+
+article blockquote > p{
+ color: #666;
+}
+
+img.destacada {
+float: left;
+width: 100%;
+height: auto;
+border-radius: 7px;
+}
+
+article h1, article h2, article h3 { font-family: "Oswald", sans-serif; }
+article h1 {
+font-size: 1.7rem;
+line-height: 1.3;
+text-align: left;
+text-transform: uppercase;
+}
+article h2, article h3 {
+font-size: 1rem;
+text-align: right;
+line-height: 1.3;
+margin: 1.3rem 0;
+font-weight: 300;
+}
+article h3 {
+font-size: 1.1rem;
+}
+article p {
+line-height: 1.3;
+text-align: left;
+}
+
+@media screen and (max-width: 750px) {
+
+section {
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+}
+
+.cardex {
+  position: relative;
+  margin-bottom: -15px;
+  height: 100%;
+}
+
+img.destacada {
+float: none;
+width: 100vw;
+margin-bottom: 1.7rem;
+margin-left: 0;
+}
+
+article.columnas div {
+column-count: 1;
+}
+
+article.columnas h1{
+max-width: 83%;
+}
+
+article.columnas h2{
+max-width: 83%;
+}
+}
+
+text {
+  font-size: 315px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.ct-series-b {
+  fill:#bada55;
+  stroke: white;
+  stroke-width: 4px;
+}
+  </style>
+</head>
+
+    <body>
+
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="main-c">
+
+          <div class="container">
+            <div class="site-header clearfix" role=banner>
+              <div class=site-logo>PROGRAMA MUSEO ARTE Y CIUDAD
+              </div>
+              <ul class="site-navi inline-block-list">
+                <li>
+                  <a href="/" data-ga-category="Inbound links" data-ga-action="Nav click" data-ga-label="Source code">Inicio
+                  </a>
+                </li>
+                <li>
+                  <a href="/contactos" data-ga-category="Outbound links" data-ga-action="Nav click" data-ga-label=Docs>CONTACTOS
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="wow bounceInDown">
+                <div  style="width: 25%; margin:0; margin-left:auto; margin-right:auto;">
+                  <img src="//salondejulio.com/img/logo-municp.svg"/>
+                </div>
+              </div>
+
+          </div><!-- end of container -->
+
+<main style="margin-top:0;">
+
+    <figure class="figure9" style="margin:0;">
+      <img src="//res.cloudinary.com/magnvs/image/upload/c_crop,g_south,h_580,y_200/v1537087727/tapia-9_gquamm.jpg" alt="" class="figure-img">
+    </figure>
+    <figure class="figure2" style="margin:0;">
+      <img src="//res.cloudinary.com/magnvs/image/upload/c_crop,g_north,h_500,y_120/v1537067005/qjcq1amdvf5dructlnpq.jpg" alt="" class="figure-img">
+    </figure>
+    <figure class="figure3" style="margin:0;">
+      <img src="//res.cloudinary.com/magnvs/image/upload/c_crop,g_north,h_500,y_120/v1537076739/tapia-3_uqzw01.jpg" alt="" class="figure-img">
+    </figure>
+</main>
+
+<div class="site-section-head">
+<figure class="full-width">
+      <img class="wide" src="/assets/tapia-title.svg" alt="" />
+</figure>
+</div>
+
+<div class="site-section-head">
+<div class="article-mag-wrap">
+
+
+  <header class="article-mag-header">
+    <h4>
+
+      Ha retratado a importantes personajes de la historia y de la actualidad nacional, tiene su obra repartida en colecciones particulares de países como España, Estados Unidos, Francia, Egipto, Panamá, Canadá y México, entre otros; además, no sólo es es el pintor oficial de nuestro Museo Municipal, sino también de varias instituciones importantes del país.
+
+
+    </h4>
+
+  <div class="byline">
+      &#10086;
+    </div>
+
+  </header>
+
+  <div class="intro-ps leftie">
+
+	<p>&laquo; <strong>Procuro que el relato visual </strong> encadene mental y emocionalmente dentro de una sólida composición de líneas, de masas y de pesos cromáticos.  Mi obra es creación de síntesis, nada se omite, y tampoco nada se agrega. &raquo;</p>
+  <br />
+
+    <p> &laquo; <strong>Para mis obras </strong> elijo el lienzo como soporte, los óleos como colorantes y los pinceles como herramientas de creación.  Me surgieron necesidades estructurales ligadas a mis procedimientos operatorios: al lienzo debo imprimarlo con caseína, aceites esenciales y resinas sintéticas, para proporcionarle elasticidad e impermeabilidad. &raquo;</p>
+
+
+
+  </div>
+
+<div class="article-mag-body">
+    <div class="site-promo">
+
+    <p class="leftie">&laquo; Cada obra que plasmo en el lienzo es una unidad que crea el acorde entre intervalos: es la proporción armónica, la síntesis de formas simétricas y asimétricas, la pulsación cuadrantal, las propiedades aditivas rítmicas y geométricas, el sublime triangulo, y la espiral logarítmica.  Lo que al inicio, podría parecer pura geometría, cobra vigor plástico con las pinceladas: trazos fluidos y finos, rectos y curvos, sinuosos y oblicuos, que dan vida y ritmo a las cosas que pinto y son el espejo en el que se mira nuestra cultura. &raquo;</p>
+    <p class="leftie">&laquo; En mis cuadros intento reflejar la realidad que vive ante los ojos del espectador, pero que, inmovilizada por la imagen pictórica, cobra un peso y una fuerza que el movimiento de la vida nos oculta con frecuencia: expreso lo maravilloso de lo cotidiano.  Les obsequio el gozo de descubrir. &raquo;</p>
+    </div>
+
+    <figure class="full-width" style="margin-top:0;">
+      <img class="wide" src="//res.cloudinary.com/magnvs/image/upload/v1537089472/tw7h4cornhsa7lr9al5k.jpg" alt="" />
+      <figcaption>
+        El maestro Angeloni Tapia durante el proceso creativo de su próxima obra para el Museo Municipal de Guayaquil
+      </figcaption>
+    </figure>
+
+    <div class="byline">
+      &#10086;
+    </div>
+
+    <div class="site-promo">
+    <h3>Exposición Permanente</h3>
+    <h4>Museo Municipal de Guayaquil</h4>
+
+    <p class="leftie">El maestro Angeloni Tapia ha iluminado las salas del Museo Municipal de Guayaquil con su obra pictórica, en su mayoría se trata de retratos de personajes importantes distribuidos en las salas históricas.</p>
+
+	 <p class="leftie">Lleva varios años contribuyendo a enriquecer las Galerías de los Presidentes del Ecuador y la de los Próceres de la Independencia de Guayaquil, es además el creador de los retratos de cuerpo entero de siete de los Gobernadores de Guayaquil Colonial en la segunda mitad del siglo XVIII e inicios del XIX. Merecen mención especial la serie de cuatro réplicas de las pinturas que hiciera Ernest Charton durante su paso por Guayaquil a mediados del siglo XIX. </p>
+
+   <p><strong>VEN Y CONOCE SU OBRA</strong></p>
+
+  </div>
+  <figure class="full-width" style="margin-bottom: -4em;">
+      <img class="wide" src="//res.cloudinary.com/magnvs/image/upload/v1537087159/hucoo1wdkyrqc6yobpnu.jpg" alt="" />
+      <figcaption>
+        El poeta y prócer José Joaquín de Olmedo, el Ex Presidente Gustavo Noboa Bejarano y el Gobernador Ramón García de León y Pizarro.
+      </figcaption>
+    </figure>
+
+</div>
+  <br />
+
+</div>
+</div><!--END site-section-head -->
+
+<div class="site-section-head">
+
+	<h4 style="color:brown;">Encargos realizados para el Museo Municipal de Guayaquil</h4><br /><br/>
+
+<div class="grid">
+      <div class="grid-cell">
+
+         <h4>Presidentes Constitucionales del Ecuador</h4>
+    <p>&laquo; Abdalá Bucaram Ortiz &raquo;<br/>
+     &laquo; Rosalía Arteaga Serrano &raquo;<br/>
+	   &laquo; Fabián Alarcón Rivera &raquo;<br/>
+	   &laquo; Jamil Mahuad Witt &raquo;<br/>
+	   &laquo; Gustavo Noboa Bejarano &raquo;<br/>
+	   &laquo; Lucio Gutiérrez Borbúa &raquo;<br/>
+	   &laquo; Alfredo Palacio González &raquo;<br/>
+     &laquo; Rafael Correa Delgado &raquo;
+    </p>
+
+
+      </div>
+      <div class="grid-cell">
+
+        <h4>Gobernadores de Guayaquil Colonial</h4>
+    <p>&laquo; Juan Antonio Zelaya y Vergara &raquo;<br/>
+	   &laquo; Ramón García de León y Pizarro &raquo;<br/>
+	   &laquo; Jacinto Bejarano y Lavayen &raquo;<br/>
+	   &laquo; Bartolomé Cucalón y Villamayor &raquo;<br/>
+	   &laquo; Luis Antonio Rafael Rico Pérez &raquo;<br/>
+     &laquo; Juan Manuel de Mendiburu y Medrano &raquo;<br/>
+     &laquo; José Pascual de Vivero &raquo;
+    </p>
+
+      </div>
+
+      <div class="grid-cell">
+
+        <h4>Próceres de la Independencia</h4>
+    <p>&laquo; José Joaquín de Olmedo &raquo;<br/>
+	   &laquo; Francisco de Paula Lavayen &raquo;<br/>
+	   &laquo; Manuel Antonio de Luzárraga y Echezurría &raquo;<br/>
+	   &laquo; Baltazar García y de la Rocha &raquo;<br/>
+     &laquo; Antonio Farfán &raquo;<br/>
+     &laquo; José de San Martín &raquo;<br/>
+     &laquo; José de la Mar y Cortázar &raquo;
+	   </p>
+
+      </div>
+
+
+    </div>
+</div><!--END site-section-head -->
+
+<div class="site-section-head">
+
+    <div class="grid">
+      <div class="grid-cell">
+        <br  />
+
+    <h4>Réplicas de las pinturas de Ernest Charton </h4>
+    <p>Vista de Guayaquil desde el &laquo;Camino de la Fuga&raquo;.<br/>
+	   La &laquo;Calle Nueva&raquo; de Guayaquil, S. XIX.<br/>
+	   Vista de la &laquo;Calle de la Orilla&raquo; y el cerro Sta. Ana.<br  />
+     El &laquo;Estero de Villamar&raquo;, actual calle Loja de Guayaquil.
+
+    </p>
+
+      </div>
+
+      <div class="grid-cell">
+
+    <h4>Sala de la Colonia</h4>
+    <p>&laquo; Conquistador Sebastián de Benalcázar &raquo;
+    </p>
+
+    <h4>Sala del Siglo XX</h4>
+    <p>&laquo; Rogelio Benítez Icaza &raquo;
+    </p>
+
+      </div>
+
+    </div>
+
+</div><!--END site-section-head -->
+
+<div class="site-section-head">
+
+	<figure>
+      <img style="border-radius:50%; width:10%;" src="/img/tapia-5.jpg" alt="" />
+      <figcaption>
+        &copy;2018 A. TAPIA
+      </figcaption>
+    </figure>
+
+<div class="article-mag-wrap">
+
+	<div class="byline">
+      &#10086;
+    </div>
+
+  <aside class="in-brief">
+    <h3>ANGELONI TAPIA</h3>
+    <div class="in-brief-content">
+      <p><strong>Lugar de origen:</strong> Nacido en la ciudad de Latacunga -Provincia de Cotopaxi-, 1968. Actualmente reside en la ciudad de Quito.</p>
+      <p><strong>Estudios:</strong> Licenciatura en artes plásticas, especialidad pintura-grabado. Facultad de Artes de la Universidad Central del Ecuador.</p>
+      <p><strong>Pintor oficial:</strong> Academia Nacional de Historia del Ecuador, Fuerza Naval Ecuatoriana, Conferencia Episcopal Ecuatoriana, Comando Conjunto de las Fuerzas Armadas del Ecuador, Cruz Roja Ecuatoriana, Diócesis de Riobamba, Fuerza Terrestre Ecuatoriana.</p>
+      <p><strong>Premios:</strong> Primer premio concurso intercolegial de dibujo -Provincia de Cotopaxi- (1979); Segundo premio concurso intercolegial de pintura -Provincia de Cotopaxi- (1983); Primer premio “Nueva Generación”, Casa de los Marqueses, Latacunga (1996).
+      </p>
+    </div>
+  </aside>
+
+</div>
+</div><!--END site-section-head -->
+
+
+<div class="aside-b">
+<div class="row">
+
+  <div class="col col-6 offset-3">
+  <figure style="margin-bottom:0;">
+    <img src="/assets/main-logos.svg">
+  </figure>
+  </div>
+
+</div>
+</div>
+
+
+<figure class='full-width' style="margin-bottom:0;margin-top:0;">
+  <img class="wide" src="//res.cloudinary.com/magnvs/image/upload/v1537084725/edsp2syah8f3acp7a2ly.jpg">
+</figure>
+
+<div class="site-footer" >
+<div class="row">
+
+  <div style="text-align:center;" class="col col-12">
+  <figure><img src="/assets/dreamers.svg" style="width:20rem;"/></figure><br />
+  <p><small>MUSEO MUNICIPAL DE GUAYAQUIL</small>
+  </p>
+  </div>
+
+<div class="col col-8 offset-2">
+
+  <div class="row gutter">
+    <div class="col col-8 item">
+      <p><i class="fa fa-phone"></i>&emsp; +593-4 2594800 ext. 7402</p>
+      <p><i class="fa fa-bank"></i>&emsp; Sucre entre Chile y Pedro Carbo</p >
+      <p><i class="fa fa-calendar"></i>&emsp; Martes a sábado</p>
+      <p><i class="fa fa-clock-o"></i>&emsp; 09h00 - 17h30</p>
+      <p><i class="fa fa-bus"></i>&emsp; Parada Metrovia más cercana: Biblioteca Municipal</p>
+    </div>
+
+    <div class="col col-4 item">
+      <p>
+        <a class="twitter-share-button" href=https://twitter.com/share data-count=none data-lang=es data-size=large data-text="Musimuestras 2017" data-url="https://twitter.com/" ><i class="fa fa-twitter">&ensp;</i>Comparte
+        </a>
+      </p>
+      <p>
+        <a class="facebook-share-button" href="https://www.facebook.com/museoarteyciudadgye/" data-count=none data-lang=es data-size=large data-text="Musimuestras 2017" data-url="https://www.facebook.com/museoarteyciudadgye/" ><i class="fa fa-facebook">&ensp;</i>Encuéntranos en Facebook
+        </a>
+      </p>
+    </div>
+  </div>
+
+</div>
+
+
+<div style="text-align:center;" class="col col-12">
+
+
+     <hr id="final"/>
+       <p>
+       <a href="https://www.netlify.com"><img style="width:100px"  src="/img/netlify-color-accent.svg"/></a>&nbsp;&nbsp;
+       <a href="https://jekyllrb.com"><img style="width:85px; border-radius:3px" src="/img/jekyll-logo.svg" /></a>&nbsp;&nbsp;
+       <a href="https://html5boilerplate.com"><img style="width:42px; border-radius:3px" src="/img/html5-boilerplate.svg"/></a>
+       </p>
+       <p>
+       <a href="https://fernanz.github.io"><img style="width:55px; border-radius:3px" src="/img/fernanz-logo.svg"/></a>
+       </p>
+
+     <p>
+       DESARROLLO WEB: <a href="mailto:fmayorga.uno@gmail.com">FERNANDO MAYORGA</a><br /><span style="color:#aaa;">&copy; Programa Museo, Arte y Ciudad 2018.</span>
+     </p>
+</div>
+
+</div>
+</div>
+
+</div><!-- end of main-->
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="/js/plugins.js"></script>
+        <script src="/js/main.js"></script>
+        <script src="/js/kube.js"></script>
+        <script src="/js/wow.js"></script>
+
+        <script>
+        wow = new WOW(
+                {
+                  animateClass: 'animated',
+                  offset: 100
+                }
+        )
+        wow.init()
+        </script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100191210-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    </body>
+</html>

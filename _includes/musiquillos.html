@@ -1,0 +1,17 @@
+<div id="musiquillos" class="site-section">
+  <h2 class="league-two">EN CARTELERA
+  </h2>
+  <ul class="in-the-wild">
+    {% assign people = site.people | sort: 'listing-priority' %}
+    {% for person in people %}
+    <li>
+      <h3><a href="{{ person.url }}">{{ person.first-name }} {{ person.last-name }}</a></h3><p>{{ person.job }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+  <p><a href="/people" class="direct-to-section">Todos los participantes</a>  </p>
+  <div class=cta-option>
+      <a class="btn btn-alt" href="/afiche.pdf">Imprimir programa
+      </a>
+    </div>
+  </div>

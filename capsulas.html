@@ -1,0 +1,51 @@
+---
+layout: capsule
+---
+<div class="site-section site-section-video-followup">
+    {% assign capsulas = site.capsulas | sort: 'listing-priority' %}
+    {% for capsulas in capsulas limit: 5 %}
+
+  <section>
+
+  <div class="row leftie" style="margin-top:2em;">
+  <div class="col col-5 ">
+  <div class="cal">
+
+  <figure >
+    {% if capsulas.image %}
+  <img class="shadow" src="{{ capsulas.image }}"/>
+    {% endif %}
+  </figure>
+  </div>
+  </div>
+
+  <div class="col col-7">
+  <div>
+	{% if capsulas.day %}
+  <h2 style="margin:0 !important;" class="league-sm">{{ capsulas.day }}{% endif %}{% if capsulas.month %}&nbsp;{{ capsulas.month }}</h2>
+	{% endif %}
+  <h2 style="margin:auto 0 .6em 0 !important; padding:0 !important;" class="league-sm">{{ capsulas.title }}</h2>
+  <div class="pts">
+  <p>{{ capsulas.content }}</p>
+  <ul>
+    {% if capsulas.time %}<li>Hora: {{ capsulas.time }}</li>{% endif %}
+    {% if capsulas.place %}<li>{{ capsulas.place }}</li>{% endif %}
+  </ul>
+
+  </div>
+  </div>
+  </div>
+
+  </section>
+  {% endfor %}
+
+  <div class="row">
+
+    <div class="col col-6 offset-3">
+    <figure style="margin-bottom:0;">
+      <img src="/assets/main-logos.svg">
+    </figure>
+    </div>
+
+  </div>
+  </div>
