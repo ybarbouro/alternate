@@ -623,7 +623,8 @@ h2.animosa {
     color:rgba(255,255,255,.5);}
 
 .site-promo{
-  margin-top: 5rem;
+  margin-top: 10rem;
+	margin-left: 30vw;
 	padding-top: 0;
 	padding-bottom: 1.4rem;
 }
@@ -658,22 +659,6 @@ h2.animosa {
 	  color: #ffffff;
 	  text-shadow:2px 2px 0 #000;
 		letter-spacing: 1px;
-	  }
-
-	.site-catch{
-	  padding: .3em}
-
-	.site-catch .description{
-	  color:#1a1a1a;
-	  font-size:1.2em;
-	  margin:1em 2em 0}
-
-	.site-catch h2 {
-	  font-family:'league_gothicregular', sans-serif;
-	  font-weight: 300;
-	  font-size: 2.7rem;
-	  color: #fff;
-	  padding-bottom: 1rem;
 	  }
 
 .last-update{
@@ -841,8 +826,11 @@ img.tilt {
     margin:0 .5em}
   .site-header{
     padding-top:40px}
-  .site-promo{
-    padding:1em 0}
+	.site-promo{
+			margin-left: 0;
+			margin-right: 0;
+			padding-bottom: 2rem;
+		}
   .site-section{
     padding:2.7em 1em 4em}
 }
