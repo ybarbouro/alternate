@@ -505,11 +505,12 @@ img.wide-alt {
        margin-top: 0;
        margin-bottom: 0;
        position:relative;
-       background-color:rgba(91,174,246,.3);
-       background-repeat: no-repeat;
-       background-size: cover;
+       background-color:rgba(255,255,255,1);
+       background-image: url(../assets/yellow-top.png);
+       background-repeat: repeat-x;
+       background-size: contain;
        background-position: center top;
-       min-height: 60vh;
+       min-height: 75vh;
    }
  .main-c {
        margin-top: 0;
@@ -676,10 +677,11 @@ span.suscribing{
 .main { margin-top: 0;
         margin-bottom: 0;
         position:relative;
-        background-color: #5BAEF6;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: top left;
+        background-color: rgba(255,255,255,1);
+        background-image: url(../assets/yellow-top.png);
+        background-repeat: repeat-x;
+        background-size:contain;
+        background-position: top center;
     }
 .last-main-title h1 {
       font-family: 'league_gothicregular', sans-serif;
