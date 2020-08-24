@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Más de 60 obras recopilarán la historia del arte guayaquileño'
-subtitle: 'Se exhibirán creaciones, entre pinturas y esculturas, de 55 autores.'
+subtitle: 'Se exhibirán creaciones, entre pinturas y esculturas, de 55 autores. Han sido realizadas desde finales de 1.800 hasta nuestros días.'
 date: 2020-08-15 00:00:00
 comment: Juan Daniel Ponce | Expreso
 image: "//res.cloudinary.com/magnvs/image/upload/v1598231766/aucjknjotmf8dj7qr0sp.jpg"
@@ -18,6 +18,6 @@ Sin embargo, estas creaciones estarán de manera presencial en las salas del Mus
 
 Dentro de la muestra también participarán autores del colectivo de artistas independientes, como: Xavier Portilla, Nelson Faicán, Gabriel Buenaño, Marco San Martín, Hermel Quezada, José CarboIván Paredes y Danilo Esteves. Ellos, en octubre pasado también se unieron para rendir un homenaje a la ciudad con una exposición de pinturas.
 
-Como parte de la actividad, se entrevistará desde el lunes 24 al 29 de agosto a diferentes expositores, a través de las redes sociales. 
+Como parte de la actividad, se entrevistará desde el lunes 24 al 29 de agosto a diferentes expositores, a través de las redes sociales.
 
 <small>Fotografía: <b>Mariuxi Cáceres</b><br />Este artículo fue publicado en la versión digital del diario [Expreso ](//www.expreso.ec/guayaquil/60-obras-recopilaran-historia-arte-eno-87832.html) del 12 de agosto de 2020.</small>
