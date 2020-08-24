@@ -7,6 +7,7 @@ comment: Peggy Artieda | Dirección de Cultura
 image: "//res.cloudinary.com/magnvs/image/upload/v1597673653/nvauuc8plbugyhwcp1wr.jpg"
 ffw: Leer más
 ---
+
 **La M. I. Municipalidad de Guayaquil a través de la Dirección de Cultura da a conocer los nombres de  los ganadores del primer concurso nacional de literatura titulado "Letras de esperanza".**<br /><br/>El anuncio oficial lo realizó el **Arq. Melvin Hoyos Galarza**, *director de Cultura* y mentalizador de esta actividad, considerando que en esta nueva realidad debieron haber nacido una serie de vivencias que seguramente han sido dignas de ser narradas para la posteridad. Fueron admitidas 86 obras de literatura.<br /><br/>Esta convocatoria tuvo como objetivos los siguientes:
 
 <div class="leftie">
