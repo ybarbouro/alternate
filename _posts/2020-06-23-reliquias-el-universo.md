@@ -7,7 +7,9 @@ comment: Andrés García Yépez | El Universo
 image: "//res.cloudinary.com/magnvs/image/upload/v1594157484/relics_tre5o4.jpg"
 ffw: Leer más
 ---
-Reliquias de aquellos que fueron protagonistas de la gesta libertadora del 9 de Octubre de 1820 reposan en el Museo Municipal de Guayaquil. Armas, objetos personales de los próceres y documentos de la época son la muestra del proceso de emancipación porteño que está por celebrar su bicentenario.<br /><br />Estos artículos, pertenecientes a personajes que participaron en la gesta independentista, evocan su lucha por la libertad de la urbe porteña.<br /><br />El Acta de Independencia, que declara a Guayaquil libre del yugo español, es una de las reliquias más preciadas con las que cuenta el museo, explicó su director, Melvin Hoyos.
+Reliquias de aquellos que fueron protagonistas de la gesta libertadora del 9 de Octubre de 1820 reposan en el Museo Municipal de Guayaquil. Armas, objetos personales de los próceres y documentos de la época son la muestra del proceso de emancipación porteño que está por celebrar su bicentenario.<br /><br />Estos artículos, pertenecientes a personajes que participaron en la gesta independentista, evocan su lucha por la libertad de la urbe porteña.
+
+El Acta de Independencia, que declara a Guayaquil libre del yugo español, es una de las reliquias más preciadas con las que cuenta el museo, explicó su director, Melvin Hoyos.
 
 Este documento fue el primero, en el territorio ecuatoriano, que establecía los rompimientos de lazos con la corona española.
 

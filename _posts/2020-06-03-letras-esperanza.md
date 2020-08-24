@@ -7,7 +7,9 @@ comment: Fernando Mayorga | Dirección de Cultura
 image: "//res.cloudinary.com/magnvs/image/upload/v1591224695/i3hpc0ea6o35zqwb65zn.jpg"
 ffw: Leer más
 ---
-Debido a la emergencia sanitaria como efecto de la pandemia actual y, con el propósito de controlar y disminuir la propagación del Covid-19, se tomaron medidas como el aislamiento voluntario para la población en general; a partir de esta experiencia global nació la iniciativa “Quédate en casa” para crear conciencia sobre la importancia del distanciamiento social en los tiempos que estamos experimentando.<br /><br />Muchos de nosotros hemos tenido que permanecer en casa, adaptarnos y cambiar nuestra forma de vida en especial en lo cotidiano. Lo usual y lo habitual probablemente cambiaron de significado para muchos de nosotros, en esta nueva realidad debieron haber nacido una serie de vivencias que seguramente han sido dignas de ser narradas para la posteridad.<br /><br />En consecuencia, la M. I. Municipalidad de Guayaquil a través de la Dirección de Cultura realiza el presente CONCURSO NACIONAL DE LITERATURA "LETRAS DE ESPERANZA" bajo las **siguientes bases**:
+Debido a la emergencia sanitaria como efecto de la pandemia actual y, con el propósito de controlar y disminuir la propagación del Covid-19, se tomaron medidas como el aislamiento voluntario para la población en general; a partir de esta experiencia global nació la iniciativa “Quédate en casa” para crear conciencia sobre la importancia del distanciamiento social en los tiempos que estamos experimentando.<br /><br />Muchos de nosotros hemos tenido que permanecer en casa, adaptarnos y cambiar nuestra forma de vida en especial en lo cotidiano. Lo usual y lo habitual probablemente cambiaron de significado para muchos de nosotros, en esta nueva realidad debieron haber nacido una serie de vivencias que seguramente han sido dignas de ser narradas para la posteridad.
+
+En consecuencia, la M. I. Municipalidad de Guayaquil a través de la Dirección de Cultura realiza el presente CONCURSO NACIONAL DE LITERATURA "LETRAS DE ESPERANZA" bajo las **siguientes bases**:
 
 **1. OBJETIVOS**
 
