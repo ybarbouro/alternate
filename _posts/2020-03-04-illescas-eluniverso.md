@@ -7,6 +7,7 @@ comment: Johnny Guambaña | El Universo
 image: "//res.cloudinary.com/magnvs/image/upload/v1583334868/illescas-universo_g4wwcd.jpg"
 ffw: Leer más
 ---
+
 La Imperfecta belleza del maestro Hernán Illescas se presentará en Guayaquil a partir de mañana en el Museo Municipal del Puerto Principal. El artista azuayo, que acaba de cumplir 40 años de trayectoria, expondrá los lienzos con los que cuestiona las acciones del hombre en contra de la naturaleza.<br /><br />Illescas tiene una importante trayectoria artística y ha expuesto sus obras dentro y fuera del país. Ha tenido varias etapas y procesos formativos. Cuenta que se inició en el indigenismo y con el paso de los años se afianzó hasta lo simbólico hasta alcanzar una “estabilidad temática” que le ha llevado a desarrollar nuevas formas de trabajo.
 
 Imperfecta belleza es una exposición itinerante que incluye 35 obras de series denominadas Del calentamiento global y peces, De la memoria y la Tierra, De la migración y Del Holocausto. De estas se desprenden obras como La soberbia del deseo que desata mares que hace alusión al calentamiento global, Los desechos echan el delito al mar, Burbujas de oxígeno, entre otras.
