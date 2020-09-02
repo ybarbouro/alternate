@@ -98,7 +98,7 @@ La M. I. Municipalidad de Guayaquil otorgará tres premios para cada una de las 
 
 Cada uno de los premios consisten en valiosas mini bibliotecas con ediciones de libros del Programa Editorial de la M. I. Municipalidad de Guayaquil.
 
-Ademas, se considerarán menciones de honor MUNICIPALIDAD DE GUAYAQUIL para tres instituciones educativas, según el criterio del jurado y cada una recibirá como premio valiosas selecciones de libros editados por el Programa Editorial de la M. I. Municipalidad de Guayaquil.
+Además, se considerarán menciones de honor MUNICIPALIDAD DE GUAYAQUIL para tres instituciones educativas, según el criterio del jurado y cada una recibirá como premio valiosas selecciones de libros editados por el Programa Editorial de la M. I. Municipalidad de Guayaquil.
 
 Se promocionará la foto y nombre de cada uno de los ganadores a través de las redes sociales de la Municipalidad.
 
@@ -114,4 +114,4 @@ Se promocionará la foto y nombre de cada uno de los ganadores a través de las 
 
 **Dirección de Cultura, 24 de agosto de 2020**
 
-Sí deseas, aquí puedes <b>&#8594;</b> **[DESCARGAR EL DOCUMENTO PDF CON LAS BASES DEL CONCURSO](//cdn.filestackcontent.com/EszYJtOjStuJ5nYzqupC)**
+Sí deseas, aquí puedes <b>&#8594;</b> **[DESCARGAR EL DOCUMENTO PDF CON LAS BASES DEL CONCURSO](//cdn.filestackcontent.com/P3vxVQCuQEOWXiheJSIJ)**
