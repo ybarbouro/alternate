@@ -9,7 +9,6 @@ listing-priority: 69
 image:
 ---
 
-
 ### TODOS LOS VIERNES / <strong>19h00</strong>
 
 Programa **“VIERNES MUSICALES”** desde las plataformas virtuales de Facebook Live del Teatro Centro de Arte. **Organizan:** Teatro Centro de Arte y Dirección de Cultura del Municipio de Guayaquil:
