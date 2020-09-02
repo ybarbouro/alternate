@@ -64,7 +64,7 @@ Las instituciones educativas participantes deberán enviar un video con la prese
 <div class="leftie">
 <ul>
 <li>El video deberá ser realizado en formato <b>.mp4</b> o <b>.mov</b>.</li>
-<li>La intervención del ponente no debe ser mayor a 15 minutos de duración.</li>
+<li>La intervención del ponente no debe ser mayor a 10 minutos de duración.</li>
 <li>Para enviar el video también se pueden utilizar aplicaciones como WeTransfer o similares.</li>
 </ul>
 </div>
@@ -90,13 +90,15 @@ El plazo de inscripción de las presentaciones participantes de cada institució
 
 **6. PREMIOS**
 
-La M. I. Municipalidad de Guayaquil otorgará tres premios:
+La M. I. Municipalidad de Guayaquil otorgará tres premios para cada una de las instituciones educativas:
 
 - PRIMER PREMIO INDEPENDENCIA DE GUAYAQUIL
 - SEGUNDO PREMIO INDEPENDENCIA DE GUAYAQUIL
 - TERCER PREMIO INDEPENDENCIA DE GUAYAQUIL
 
-Se considerarán menciones de honor MUNICIPALIDAD DE GUAYAQUIL para tres instituciones educativas, según el criterio del jurado y cada una recibirá como premio valiosas mini librerías con ediciones de libros del Programa Editorial de la M. I. Municipalidad de Guayaquil.
+Cada uno de los premios consisten en valiosas mini bibliotecas con ediciones de libros del Programa Editorial de la M. I. Municipalidad de Guayaquil.
+
+Ademas, se considerarán menciones de honor MUNICIPALIDAD DE GUAYAQUIL para tres instituciones educativas, según el criterio del jurado y cada una recibirá como premio valiosas selecciones de libros editados por el Programa Editorial de la M. I. Municipalidad de Guayaquil.
 
 Se promocionará la foto y nombre de cada uno de los ganadores a través de las redes sociales de la Municipalidad.
 
