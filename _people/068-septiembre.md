@@ -28,4 +28,4 @@ Inauguración de la Exposición virtual del “BICENTENARIO, TESTIMONIO HISTÓRI
 
 ### JUEVES 17 / <strong>11h00</strong>
 
-Promoción de video del pasillo "Faltándome tu" realizado por ex alumnos de la Escuela del Pasillo del Museo de la Música Popular “Julio Jaramillo”. Intervienen Eva "la Patrona" y Carolina Gómez.  Desde el *fan page* del **Museo de la Música Popular Julio Jaramillo** en Facebook.
+Promoción de video del pasillo "Faltándome tu" realizado por ex alumnos de la Escuela del Pasillo del Museo de la Música Popular “Julio Jaramillo”. Intervienen Eva "La Patrona" y Carolina Gómez.  Desde el *fan page* del **Museo de la Música Popular Julio Jaramillo** en Facebook.
