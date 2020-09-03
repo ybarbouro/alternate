@@ -757,6 +757,29 @@ button.cartel:focus {
   outline-offset: -4px;
 }
 
+button.cartel-red {
+  background: rgba(255,0,0,1);
+  transition: background ease .25s;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+button.cartel-red:hover {
+  background: rgba(255,0,0,.4)
+}
+button.cartel-red:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
 img.tilt {
 	-webkit-box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 0.75);
