@@ -8,6 +8,7 @@ image: "//res.cloudinary.com/magnvs/image/upload/v1598478850/ubalqe67odchij5atjy
 ffw: Leer más
 ---
 
+
 *Nuestra identidad se sostiene en la memoria, “somos lo que recordamos”.*<br /><br/>El 9 de Octubre de 1820 Guayaquil obtuvo su independencia de la Corona española, no se trató de un movimiento revolucionario que tuvo impacto positivo sólo para nuestra comunidad, tuvo un alcance mayor: Ecuador y América, por fin vieron materializarse su anhelada ansia de libertad.<br /><br/>Los guayaquileños, con decisión, valentía y generosidad dejamos nuestra sangre en los campos de batalla que abrirían paso hacia el Pichincha y más allá. Cuando decimos *“Guayaquil por la Patria”*, lo hacemos con justa razón, y así lo demuestran los recientes descubrimientos documentales sobre la Revolución de Octubre en los últimos 50 años, particularmente: Las memorias del Virrey Joaquín de la Pezuela y las de Lord Thomas Alexander Cochrane, los hallazgos del Archivo Militar de Segovia hechos en el año 2010 y, los documentos inéditos sobre Guayaquil y su Independencia que se encuentran en el Archivo Nacional de Lima, muchos de los cuales fueron publicados en la “Compilación de documentos para una historia de la revolución peruana”.
 
 Esta no es una revolución más de las tantas que hubo en América, con sustento histórico, podemos decir que la revolución de octubre convirtió a Guayaquil en la tierra en donde inicia el fin del dominio español en América. Guayaquil con sus recursos materiales, económicos, y sobretodo con su recurso humano, durante la revolución del 9 de Octubre, pasando por el 24 de Mayo de 1822 y llegando a los triunfos en las batallas de Junín y Ayacucho, demostró con sobra de méritos que sus esfuerzos permitieron que América pueda obtener su libertad.
@@ -75,7 +76,7 @@ Una vez que se haya concluido el periodo de inscripción, el jurado realizará u
 
 La final del concurso se desarrollará en el **“Teatro Centro de Arte León Febres-Cordero”**, ubicado en el Km 4.5 de la Vía a la Costa de la ciudad de Guayaquil en fecha y hora a ser definidos e informados con anticipación por la organización del concurso.
 
-El plazo de inscripción de las presentaciones participantes de cada institución educativa finalizará el 30 de septiembre de 2020 a las 17h00.
+El plazo de inscripción de las presentaciones participantes de cada institución educativa finalizará el <u><strong>JUEVES 8 DE OCTUBRE DE 2020</strong></u> a las 17h00.
 
 
 **5. CONFORMACIÓN DEL JURADO Y FUNCIONES DEL JURADO**
@@ -114,4 +115,4 @@ Se promocionará la foto y nombre de cada uno de los ganadores a través de las 
 
 **Dirección de Cultura, 24 de agosto de 2020**
 
-Sí deseas, aquí puedes <b>&#8594;</b> **[DESCARGAR EL DOCUMENTO PDF CON LAS BASES DEL CONCURSO](//cdn.filestackcontent.com/P3vxVQCuQEOWXiheJSIJ)**
+Sí deseas, aquí puedes <b>&#8594;</b> **[DESCARGAR EL DOCUMENTO PDF CON LAS BASES DEL CONCURSO](//res.cloudinary.com/magnvs/image/upload/v1599674458/sjnarocb9zg7aestzhbw.pdf)**
