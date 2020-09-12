@@ -593,7 +593,7 @@ h2.animosa {
   }
 
   .site-nav a{
-    color: white;
+    color: var(--vino);
     display: block;
     text-decoration:none;
     text-transform:uppercase
@@ -617,7 +617,7 @@ h2.animosa {
   }
 
 .site-nav a:active,.site-nav a:focus,.site-nav a:hover{
-  color:rgba(255,255,255,.5);}
+  color:rgba(0,0,0,.5);}
 
 .site-navi a:active,.site-navi a:focus,.site-navi a:hover{
     color:rgba(255,255,255,.5);}
@@ -888,14 +888,13 @@ img.tilt {
 				text-align: center;
 			  }
 
-  h2.animosa {
-        font-family:"Animosa", sans-serif;
-        font-weight: bold;
-        font-size: 2.5rem;
-        color: rgba(255,255,255,.7);
-        letter-spacing:normal;
-        line-height: 2.7rem;
-      }
+	h2.league-five{
+				  font-family:"Oswald", sans-serif;
+				  font-weight: bold;
+				  color: #ffa000;
+					font-size: 1.7rem;
+					line-height: 22pt;
+				}
 	.bounce {
 			width: 23%;
 		  padding: 0;
