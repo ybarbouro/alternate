@@ -488,6 +488,15 @@ img.wide-alt {
   z-index: 0;
 }
 
+picture.full-widthx {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+}
+
 .redonda {
   margin:30px;
   width:275px;
