@@ -240,9 +240,9 @@ img.rounds {
  }
 
 .shadow {
-    width: 50%;
+    width: 100vw;
  	  margin-bottom: 0.5em;
-    border-radius: 50%;
+    border-radius: 25px;
     -webkit-box-shadow: 6px 7px 13px -6px rgba(0,0,0,0.75);
     -moz-box-shadow: 6px 7px 13px -6px rgba(0,0,0,0.75);
     box-shadow: 6px 7px 13px -6px rgba(0,0,0,0.75);
