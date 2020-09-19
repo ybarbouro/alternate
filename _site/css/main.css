@@ -557,16 +557,17 @@ picture.full-widthx {
 }
 
 .pod-brands {
-  margin-bottom: 3rem;
+  margin: 1rem 0 3rem;
 }
 
 .pod-brands > p > a > img {
-  margin-top: 1rem;
+  margin-top: .8rem;
 }
 
 .pod-brands > p {
   display: flex;
   flex-wrap: wrap;
+  justify-content:center;
   margin-left:3%;
 }
 
