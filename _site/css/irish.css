@@ -343,10 +343,10 @@ h2.league-sm-white{
 
 h2.league-sm-white-btn{
   font-family:"Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 1.5rem;
+  font-weight: 100;
+  font-size: 1.3456rem;
 	line-height: 1.5rem;
-  color:rgba(255,255,255,0.9);
+  color:rgba(255,255,255,0.3);
   text-transform: uppercase;
 }
 
