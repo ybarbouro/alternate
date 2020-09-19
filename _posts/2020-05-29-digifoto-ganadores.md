@@ -4,7 +4,7 @@ title: 'Anunciamos los ganadores del concurso de fotografía digital "Mi familia
 subtitle: "Dirección de Cultura"
 date: 2020-05-29 00:30:00
 comment: Peggy Artieda | Dirección de Cultura
-image: "//res.cloudinary.com/magnvs/image/upload/v1590803802/mfpqob3i0gvlpficnunl.jpg"
+image: "//res.cloudinary.com/magnvs/image/upload/v1590837695/mxs2bnpiltxo1vrbuvo3.jpg"
 ffw: Leer más
 ---
 **La M. I. Municipalidad de Guayaquil a través de la Dirección de Cultura da a conocer los nombres de  los ganadores del primer concurso de fotografía digital titulado "Mi familia, mi hogar".**<br /><br/>El anuncio oficial lo realizó el Arq. **Melvin Hoyos Galarza**,  **director de Cultura** y mentalizador de esta actividad que nació desde la necesidad de integrar a la familia y sociedad, además de contibuir con el desarrollo de la creatividad para lograr una convivencia saludable y lo más conveniente durante el confinamiento en este tiempo de pandemia, al invitar a todos que posean un celular , como único recurso , para  captar vivencias y actividades hechas en época de la pandemia.
