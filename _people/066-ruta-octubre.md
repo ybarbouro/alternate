@@ -9,7 +9,7 @@ listing-priority: 66
 image: "//res.cloudinary.com/magnvs/image/upload/v1600891540/vliaofkvvjxcuzikgyuk.jpg"
 ---
 
-### TODOS LOS FINES DE SEMANA <strong>16h00 - 21H00</strong>
+### TODOS LOS FINES DE SEMANA <br/>PLAZA GUAYARTE <strong>16h00 - 21H00</strong>
 
 Presentaciones artísticas y musicales, body paint, globo formas y mimos. Presentación especial del artista plástico Orllyn Ramírez.
 
