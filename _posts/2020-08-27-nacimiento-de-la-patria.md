@@ -8,7 +8,6 @@ image: "//res.cloudinary.com/magnvs/image/upload/v1598478850/ubalqe67odchij5atjy
 ffw: Leer más
 ---
 
-
 *Nuestra identidad se sostiene en la memoria, “somos lo que recordamos”.*<br /><br/>El 9 de Octubre de 1820 Guayaquil obtuvo su independencia de la Corona española, no se trató de un movimiento revolucionario que tuvo impacto positivo sólo para nuestra comunidad, tuvo un alcance mayor: Ecuador y América, por fin vieron materializarse su anhelada ansia de libertad.
 
 Los guayaquileños, con decisión, valentía y generosidad dejamos nuestra sangre en los campos de batalla que abrirían paso hacia el Pichincha y más allá. Cuando decimos *“Guayaquil por la Patria”*, lo hacemos con justa razón, y así lo demuestran los recientes descubrimientos documentales sobre la Revolución de Octubre en los últimos 50 años, particularmente: Las memorias del Virrey Joaquín de la Pezuela y las de Lord Thomas Alexander Cochrane, los hallazgos del Archivo Militar de Segovia hechos en el año 2010 y, los documentos inéditos sobre Guayaquil y su Independencia que se encuentran en el Archivo Nacional de Lima, muchos de los cuales fueron publicados en la “Compilación de documentos para una historia de la revolución peruana”.
