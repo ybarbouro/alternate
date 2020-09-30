@@ -6,11 +6,9 @@ month:
 place:
 time:
 listing-priority: 66
-image: "//res.cloudinary.com/magnvs/image/upload/v1600891540/vliaofkvvjxcuzikgyuk.jpg"
+image:
 ---
 
-### TODOS LOS FINES DE SEMANA <br/>PLAZA GUAYARTE <strong>16h00 - 21H00</strong>
+<h3 style="max-width: 80%;">¡En Guayaquil conmemoramos el Bicentenario de nuestra Independencia por todo lo alto!</h3>
 
-Presentaciones artísticas y musicales, body paint, globo formas y mimos. Presentación especial del artista plástico Orllyn Ramírez.
-
-Obras de teatro (Del lado de Urdesa): "La dama tapada", "Cantuña", "María Angula", Leyenda del cerro Santa Ana" y "Demonio Iwia". Actúan: Miriam Murillo, Jaime Vallejo, Paola Vera, Amparo Guillén y Augusto Enríquez.
+Siguiendo todas las normas de bioseguridad, celebraremos este mes con shows virtuales y presenciales que te harán sentir más orgulloso de nuestra ciudad.

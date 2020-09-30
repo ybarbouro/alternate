@@ -1,7 +1,7 @@
 <div id="mas-eventos" class="for-grids">
 <div class="grids">
 	{% assign destacadas = site.destacadas %}
-	{% for destacadas in destacadas limit: 9 %}
+	{% for destacadas in destacadas limit: 5 %}
 
 <div class="item-grid">
 	{% if destacadas.image %}
@@ -16,17 +16,17 @@
 	<p><a href="{{ destacadas.mmdg }}"> <i class="fa fa-download"></i>&nbsp;Descargar</a></p>
 	{% endif %}
 	{% if destacadas.info %}
-	<p><a href="{{ destacadas.info }}"> <i class="fa fa-info-circle"></i>&nbsp;Descargar</a></p>
+	<p><a href="{{ destacadas.info }}"> <i class="fa fa-info-circle"></i>&nbsp;Más información &raquo;</a></p>
 	{% endif %}
 </div>
 {% endfor %}
 
-<div class="quote-wrapper-inround">
+<!-- <div class="quote-wrapper-inround">
 	<div class="text-inround">
 		<p>Acometed, que siempre de quien se atreve más el triunfo ha sido; quien no espera vencer, ya está vencido.</p>
 		<div>José Joaquín de Olmedo</div>
 	</div>
-</div>
+</div> -->
 
 </div>
 </div>

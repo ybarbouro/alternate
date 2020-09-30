@@ -11,7 +11,7 @@
     {% if post.subtitle %}
     <h3 class="league-gray">{{ post.subtitle }}</h3>
     {% endif %}
-    <p> {{ post.excerpt | strip_newlines | truncate: 599 }} </p>
+    <p> {{ post.excerpt | strip_newlines | truncate: 967 }} </p>
     <p> {{ post.comment }} </p>
     <p> <i class="fa fa-arrow-circle-right"></i> <a href="{{post.url}}">{{ post.ffw }}</a> </p>
     </div>
@@ -63,6 +63,7 @@
   </div>
 
 <div class="info4 leftie" style="padding:0;">
+
   {% assign person = site.people | sort: 'listing-priority' %}
   {% for person in person limit: 1 %}
 
@@ -95,13 +96,22 @@
 
   {% endfor %}
 
-<div class="cta-option">
+  <div>
+    <ul class="bxslider">
+    <li><img src="//res.cloudinary.com/magnvs/image/upload/v1601440749/x6ifyn0pr099qpij9w0c.jpg" /></li>
+    <li><img src="//res.cloudinary.com/magnvs/image/upload/v1601440752/hntuzod4z2lspjzibak4.jpg" /></li>
+    <li><img src="//res.cloudinary.com/magnvs/image/upload/v1601440749/vjrohjedwzjrtudveoef.jpg" /></li>
+    <li><img src="//res.cloudinary.com/magnvs/image/upload/v1601440752/l3mlrs3jyhlhvyysn4as.jpg" /></li>
+  </ul>
+  </div>
+
+<!-- <div class="cta-option">
 
 <a style="color: #fff;" class="btn btn-premiere" href="#" data-ga-category="inbound links"><i class="fa fa-calendar"></i>&nbsp;&nbsp;
            MÁS EVENTOS (Muy pronto) &raquo;
 </a>
 
-  </div>
+  </div> -->
 
 </div>
 </div>

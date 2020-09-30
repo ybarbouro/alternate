@@ -1,12 +1,10 @@
 ---
-title: VIERNES 7 DE AGOSTO
-subtitle: "11h00"
+title: 1er. SALÓN DE FOTOGRAFÍA
+subtitle: "CCE - Núcleo del Guayas"
 listing-priority: 076
-image: "//res.cloudinary.com/magnvs/image/upload/v1594348093/gm7xvzutvnheo381hddv.jpg"
+image: "//res.cloudinary.com/magnvs/image/upload/v1601437144/wzogwnseketxwl9hgfds.jpg"
 ---
 
-Promoción del video editado de música nacional "TE QUIERO, TE QUIERO" interpretado por los alumnos y exalumnos de la **“Escuela del Museo de la Música Popular”** desde las redes oficiales de la **Dirección de Cultura:** Facebook del Museo de la Música Popular Julio Jaramillo y Eventos de la Dirección de cultura.
+**Evento semipresencial.** Para la inauguración se invitará a los ganadores, a los miembros del jurado, a las autoridades de la Casa de la Cultura, del Municipio de Guayaquil y **se hará la transmisión a través de las redes sociales para que el público también pueda participar.**
 
-- Letra y música: Nicolás Fiallos.
-- Intérperte: Elizabeth Villacís.
-- Acompañamiento musical: Carolina Gómez.
+JUEVES 15 DE OCTUBRE: 12h00

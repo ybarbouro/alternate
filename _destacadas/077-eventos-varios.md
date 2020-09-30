@@ -1,12 +1,10 @@
 ---
-title: VIERNES 21 DE AGOSTO
-subtitle: "11h00"
+title: 3º SALÓN DE LA ACUARELA
+subtitle: "CCE - Núcleo del Guayas"
 listing-priority: 077
-image: "//res.cloudinary.com/magnvs/image/upload/v1594347575/gqtirdevxwgzfejqeiga.jpg"
+image: "//res.cloudinary.com/magnvs/image/upload/v1601437145/bxyg03ffza8zjuzkvmwm.jpg"
 ---
 
-Lanzamiento del video editado del vals peruano "NADA TE RECLAMO" interpretado por los alumnos y exalumnos de la **“Escuela del Museo de la Música Popular”** desde las redes oficiales de la **Dirección de Cultura:** Facebook del Museo de la Música Popular Julio Jaramillo y Eventos de la Dirección de Cultura.
+**Evento semipresencial.** Para la inauguración se invitará a los ganadores, a los miembros del jurado, a las autoridades de la Casa de la Cultura, del Municipio de Guayaquil y **se hará la transmisión a través de las redes sociales para que el público también pueda participar.**
 
-- Autor: Genaro Ganoza.
-- Intérpertes: Mayda Molestina y Leonardo Vasco.
-- Acompañamiento musical: Carolina Gómez.
+JUEVES 22 DE OCTUBRE: 12h00
