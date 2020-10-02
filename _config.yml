@@ -22,7 +22,7 @@ name: MUSEO ARTE Y CIUDAD
 title: Museo Arte y Ciudad
 email: fernanz@me.com
 author: Fernando Mayorga G.
-exclude: [main.scss, config.rb, crono-faal.html, bicentenario.html, faal.html, guayaquil-ebook.html, gestion-2020.html, monumentos.html]
+exclude: [main.scss, config.rb, crono-faal.html, bicentenario.html, faal.html, guayaquil-ebook.html, gestion-2020.html, monumentos.html, agenda.md]
 description: >- # this means to ignore newlines until "baseurl:"
   Este sitio ha sido creado por FERNANDO MAYORGA para informar sobre las actividades y eventos culturales de la Dirección de Cultura del Municipio de guayaquil. MMDG ©2020
 baseurl: "/" # the subpath of your site, e.g. /blog
