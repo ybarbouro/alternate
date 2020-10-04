@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300');
 @import url('https://rsms.me/inter/inter.css');
-@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -249,11 +249,6 @@ img.rounds {
     box-shadow: 6px 7px 13px -6px rgba(0,0,0,0.75);
   }
 
-.charm {
-	font-family: 'Charm', cursive;
-	color:#e76a00;
-}
-
 h1.league {
 	  font-style: normal;
 	  font-weight: bold;
@@ -409,13 +404,11 @@ h2.league-red {
 	padding-top: 0;
 }
 
-h2.animosa {
-  font-family:"Animosa", sans-serif;
-  font-weight: bold;
-  font-size: 4.3rem;
-  color: rgba(255,255,255,.7);
-  letter-spacing: 1px;
-  line-height: 4.3rem;
+h2.bebas {
+  font-family:"Bebas Neue", sans-serif;
+  font-size: 7rem;
+	line-height: normal;
+  color: dodgerblue;
 }
 .bg-hero {
 	min-height: 77vh;
@@ -614,7 +607,14 @@ h2.animosa {
     color:rgba(255,255,255,.5);}
 
 .site-promo{
-  margin-top: 10rem;
+  margin-top: 0;
+	margin-left: 0;
+	padding-top: 0;
+	padding-bottom: 1.4rem;
+}
+
+.site-promo-alt{
+	margin-top: 10rem;
 	margin-left: 30vw;
 	padding-top: 0;
 	padding-bottom: 1.4rem;
@@ -848,6 +848,9 @@ img.tilt {
 		}
   .site-section{
     padding:2.7em 1em 4em}
+		h2.bebas {
+		  font-family:"Bebas Neue", sans-serif;
+		  font-size: 3rem;}
 }
 @media only screen and (max-width:600px){
   html{

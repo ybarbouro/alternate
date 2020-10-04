@@ -1,0 +1,506 @@
+<!doctype html>
+<html class="no-js" lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Museo Arte y Ciudad</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Facebook OpenGraph Info - Page Specific - Variables listed on each page -->
+	      <meta property="og:title" content="Museo Municipal de Guayaquil" />
+        <meta property="og:type" content="website">
+	      <meta property="og:image" content="//res.cloudinary.com/magnvs/image/upload/v1522811906/temporary_timbbp.jpg" />
+	      <meta property="og:url" content="//www.museoarteyciudad.com" />
+	      <meta property="og:description" content="Seguimos trabajando Online. ¡Conoce más sobre nuestras actividades aquí!" />
+
+	      <!-- Twitter Card Tags -->
+	      <meta name="twitter:card" content="summary_large_image" />
+	      <meta name="twitter:site" content="@MUMG1" />
+        <meta name="twitter:creator" content="@fernanz">
+	      <meta name="twitter:title" content="Museo Municipal de Guayaquil" />
+	      <meta name="twitter:description" content="Seguimos trabajando Online. ¡Conoce más sobre nuestras actividades aquí!" />
+	      <meta name="twitter:image" content="//res.cloudinary.com/magnvs/image/upload/v1522811906/temporary_timbbp.jpg" />
+
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+        <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200" rel="stylesheet">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/griddlysq.css">
+        <link rel="stylesheet" href="/css/galeria.css">
+        <link rel="stylesheet" href="/css/irish.css">
+        <link rel="stylesheet" href="/css/kube.css">
+        <link rel="stylesheet" href="/css/magazine.css">
+        <link rel="stylesheet" href="/css/fonts.css">
+        <link rel="stylesheet" href="/css/heritage.css">
+        <link rel="stylesheet" href="/css/alter.css">
+        <link rel="stylesheet" href="/css/slides.css">
+        <link rel="stylesheet" href="/css/slides-b.css">
+        <link rel="stylesheet" href="/css/animate.css">
+        <link rel="stylesheet" href="/css/jquery.bxslider.css">
+        <link rel="stylesheet" href="/css/modal-video.min.css">
+        <link rel="stylesheet" type="text/css" href="/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+   <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+        <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+        <style>
+/* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+section { display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+article {
+margin: 1rem;
+-ms-flex: 1 0 0px;
+flex: 1;
+/* shortcut for "flex-grow: 1". Note that it MUST be a unitless value to work; defined with a unit (e.g. flex: 1px) the shortcut would alter the flex-basis property. */
+}
+article.breaking {
+-ms-flex-grow: 2;
+flex: 2;
+/* shortcut for "flex-grow: 2" */
+}
+
+article.columnas div {
+column-count: 3;
+}
+
+article.columnas h1 {
+font-size: 2.7rem;
+line-height: 2.7rem;
+padding-bottom: 1rem;
+margin-top: 0;
+max-width: 65%;
+}
+
+article.columnas h2 {
+font-size: 2.3rem;
+line-height: 2.3rem;
+padding-bottom: 1rem;
+margin-top: 0;
+max-width: 55%;
+text-align: left;
+color: #777;
+}
+
+article.columnas h3 {
+text-align: left;
+font-size: 1.3rem;
+}
+
+article.columnas p {
+font-size:.9rem;
+font-family: 'Open Sans', sans-serif;
+}
+
+article.tarjetabg {
+background: url(/img/papers.png);
+padding: 5px 15px;
+}
+
+
+.cardex {
+  position: relative;
+  margin: 0;
+  padding: 15px 15px;
+  margin-left: -15px;
+  margin-right: -15px;
+  /* background-image: linear-gradient(to top, #243949 0%, rgba(46, 87, 103, 0.7) 100%);*/
+  height: 90%;
+  color:#fff;
+}
+
+.cardex > img {
+mix-blend-mode:normal;
+}
+
+article img {
+width: 100%; height: auto;
+border-radius: 7px;
+}
+
+article blockquote > p{
+ color: #666;
+}
+
+img.destacada {
+float: left;
+width: 100%;
+height: auto;
+border-radius: 7px;
+}
+
+article h1, article h2, article h3 { font-family: "Oswald", sans-serif; }
+article h1 {
+font-size: 1.7rem;
+line-height: 1.3;
+text-align: left;
+text-transform: uppercase;
+}
+article h2, article h3 {
+font-size: 1rem;
+text-align: right;
+line-height: 1.3;
+margin: 1.3rem 0;
+font-weight: 300;
+}
+article h3 {
+font-size: 1.1rem;
+}
+article p {
+line-height: 1.3;
+text-align: left;
+}
+
+@media screen and (max-width: 750px) {
+
+section {
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+}
+
+.cardex {
+  position: relative;
+  margin-bottom: -15px;
+  height: 100%;
+}
+
+img.destacada {
+float: none;
+width: 100vw;
+margin-bottom: 1.7rem;
+margin-left: 0;
+}
+
+article.columnas div {
+column-count: 1;
+}
+
+article.columnas h1{
+max-width: 83%;
+}
+
+article.columnas h2{
+max-width: 83%;
+}
+}
+
+text {
+  font-size: 315px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.ct-series-b {
+  fill:#bada55;
+  stroke: white;
+  stroke-width: 4px;
+}
+  </style>
+</head>
+
+<body class="noise">
+  <div class="head-news">
+        <!-- Add your site or application content here -->
+
+        <div style="padding-top: .7rem">
+          <div class="site-header clearfix" role=banner>
+                <div class="site-logo">MUSEO ARTE Y CIUDAD
+                </div>
+                <ul class="site-nav inline-block-list">
+                  <li>
+                    <a href="/" data-ga-category="Outbound links" data-ga-action="Nav click" data-ga-label=Docs>INICIO
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#pod" data-ga-category="Inbound links" data-ga-action="Nav click" data-ga-label=Docs>NUESTRO PODCAST
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/contactos" data-ga-category="Outbound links" data-ga-action="Nav click" data-ga-label=Docs>CONTACTOS
+                    </a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+
+        <div class="aside-b">
+<div class="row">
+
+  <div class="col col-6 offset-3">
+  <figure style="margin-bottom:0;">
+    <img src="/assets/main-logos.svg">
+  </figure>
+  </div>
+
+</div>
+</div>
+
+
+<div>
+  <ul class="bxslider">
+  <li><img src="//res.cloudinary.com/magnvs/image/upload/v1597881797/l5dx8nabbtaie6kw292v.jpg" /></li>
+  <li><img src="//res.cloudinary.com/magnvs/image/upload/v1597881731/mz1u0p1rdz2ecwff9l7r.jpg" /></li>
+  <li><img src="//res.cloudinary.com/magnvs/image/upload/v1597884692/wi1ae3mroumdacsvrb2s.jpg" /></li>
+</ul>
+</div>
+
+
+<div class="site-section-board" style="margin-bottom:0;">
+<div class="row" style="margin-bottom: 4.3em;">
+  <div class="col col-6">
+    <picture style="margin-bottom:0;">
+      <source srcset="assets/memorias-gye.avif" type="image/avif">
+      <img src="//res.cloudinary.com/magnvs/image/upload/v1597875860/knnl3kcezyqaq24rdmot.png">
+    </picture>
+    </div>
+  <div class="col col-5">
+    <figure style="margin-bottom:0;">
+      <img src="/assets/andinas.svg">
+    </figure>
+    <h2 style="font-size: 2.7em;" class="league-sm">PRESENTAN:</h2>
+  <figure style="margin: 0 auto; width: 85%;"><img src="/assets/comic-title.svg"/></figure>
+  <p style="text-transform:uppercase; padding:0 15px;" >Trilogía de cómics que incluye nuevos datos y aportes para una apreciación más objetiva sobre la revolución del 9 de Octubre.<br /><br />Con la edición y asesoría del historiador <b>Melvin Hoyos</b>, el guionista Alfredo García contribuye con una narración que, además de las fuentes históricas tradicionales, toma en cuenta todo lo que se ha descubierto sobre la Revolución de Octubre en los últimos 50 años.
+  </p>
+  </div>
+  <div class="col col-1">
+    </div>
+</div>
+
+<div class="row" style="padding-left: 5em;">
+
+<div class="col col-2 leftie">
+   </div>
+
+ <div class="col col-3 leftie">
+  <h2 class="league-sm" style="color:#C62828;">Antecedentes</h2>
+  <div style="border-left: 2px #C62828 solid;padding-left: 10px;">
+  <p><strong>Memorias Guayaquileñas #18</strong><br/>Guión: <b>Alfredo García</b><br />Arte: <b>Israel Pardo</b></p>
+  </div>
+  <a href="//drive.google.com/file/d/1Whpbr32o6uAqJqNI5Fb4XIPIbTdesbVs/view?usp=sharing"><button class="cartel"><i class="fa fa-download"></i> Descargar cómic</button></a>
+  </div>
+
+  <div class="col col-3 leftie">
+  <h2 class="league-sm" style="color:#C62828;">La revolución paso a paso</h2>
+  <div style="border-left: 2px #C62828 solid;padding-left: 10px;">
+  <p><strong>Memorias Guayaquileñas #19</strong><br/>Guión: <b>Alfredo García</b><br />Arte: <b>Kléver Flores</b></p>
+    </div>
+  <a href="//drive.google.com/file/d/1PjkLpDH1PshoeZHn78vZg6XRptrJ6pba/view?usp=sharing"><button class="cartel"><i class="fa fa-download"></i> Descargar cómic</button></a>
+
+  </div>
+
+  <div class="col col-3 leftie">
+  <h2 class="league-sm" style="color:#C62828;">Consecuencias</h2>
+  <div style="border-left: 2px #C62828 solid;padding-left: 10px;">
+  <p><strong>Memorias Guayaquileñas #20</strong><br/>Guión: <b>Alfredo García</b><br />Arte: <b>Pedro Benalcázar</b></p>
+  </div>
+  <a href="//drive.google.com/file/d/1KiasqBZwF7Y5q8cmfA-rPw_Y-Ap5wcXM/view?usp=sharing"><button class="cartel"><i class="fa fa-download"></i> Descargar cómic</button></a>
+  </div>
+
+  <div class="col col-1 leftie">
+     </div>
+
+</div>
+
+</div><!-- end site-section-board -->
+
+
+
+</div> <!--end class main-->
+<div class="row colorful">
+  <div class="col col-4">
+    <div class="clm">
+    <div class="clm-item">
+           <h3><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="text-primary mb-2" viewBox="0 0 32 32" focusable="false"><title>Ubicación</title>
+    <path d="M12 20 L12 30 4 30 4 12 16 2 28 12 28 30 20 30 20 20 Z" /></svg>
+             Historia del Museo</h3>
+
+      </div>
+      <div class="clm-item leftie"><i class="fa fa-info-circle"></i>&nbsp;Nuestra institución nació como Museo Industrial en 1863, fue su gestor el distinguido guayaquileño don Pedro Carbo quien en...</div>
+      <div class="clm-item"><a class="button outline" href="/expo"><i class="fa fa-arrow-circle-right"></i>&nbsp;Leer más</a></div>
+    </div>
+
+  </div>
+  <div class="col col-4">
+    <div class="clm">
+      <div class="clm-item">
+         <h3><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="text-primary mb-2" viewBox="0 0 32 32" focusable="false"><title>Ubicación</title>
+   <path d="M20 24 L12 16 2 26 2 2 30 2 30 24 M16 20 L22 14 30 22 30 30 2 30 2 24" />
+           <circle cx="10" cy="9" r="3" />
+  </svg>
+        Angeloni Tapia</h3>
+
+      </div>
+      <div class="clm-item leftie"><i class="fa fa-info-circle"></i>&nbsp;Ha retratado a importantes personajes de la historia y de la actualidad nacional, tiene su obra repartida en colecciones...</div>
+      <div class="clm-item"><a class="button outline" href="/angeloni-tapia"><i class="fa fa-arrow-circle-right"></i>&nbsp;Leer más</a></div>
+    </div>
+  </div>
+  <div class="col col-4">
+    <div class="clm">
+    <div class="clm-item">
+         <h3><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="text-primary mb-2" viewBox="0 0 32 32" focusable="false"><title>Ubicación</title>
+    <path d="M11 25 L11 6 24 3 24 23 M11 13 L24 10" />
+    <ellipse cx="7" cy="25" rx="4" ry="5" />
+    <ellipse cx="20" cy="23" rx="4" ry="5" /></svg>
+        Orquesta de Cámara</h3>
+
+      </div>
+      <div class="clm-item leftie"><i class="fa fa-info-circle"></i>&nbsp;Nace en 1986 bajo la denominación de Orquesta de Cámara Antonio Vivaldi y su primera interpretación pública la...</div>
+      <div class="clm-item"><a class="button outline" href="/ocmmg"><i class="fa fa-arrow-circle-right"></i>&nbsp;Leer más</a></div>
+    </div>
+  </div>
+ </div>
+
+<div class="site-footer" >
+<div class="row">
+
+  <div style="text-align:center;" class="col col-12">
+  <figure><img src="/assets/dreamers.svg" style="width:20rem;"/></figure><br />
+  <p><small>MUSEO MUNICIPAL DE GUAYAQUIL</small>
+  </p>
+  </div>
+
+<div class="col col-8 offset-2">
+
+  <div class="row gutter">
+    <div class="col col-8 item">
+      <p><i class="fa fa-phone"></i>&emsp; +593-4 2594800 ext. 7402</p>
+      <p><i class="fa fa-bank"></i>&emsp; Sucre entre Chile y Pedro Carbo</p >
+      <p><i class="fa fa-calendar"></i>&emsp; Martes a sábado</p>
+      <p><i class="fa fa-clock-o"></i>&emsp; 09h00 - 17h30</p>
+      <p><i class="fa fa-bus"></i>&emsp; Parada Metrovia más cercana: Biblioteca Municipal</p>
+    </div>
+
+    <div class="col col-4 item">
+      <p>
+        <a class="twitter-share-button" href=https://twitter.com/share data-count=none data-lang=es data-size=large data-text="Musimuestras 2017" data-url="https://twitter.com/" ><i class="fa fa-twitter">&ensp;</i>Comparte
+        </a>
+      </p>
+      <p>
+        <a class="facebook-share-button" href="https://www.facebook.com/museoarteyciudadgye/" data-count=none data-lang=es data-size=large data-text="Musimuestras 2017" data-url="https://www.facebook.com/museoarteyciudadgye/" ><i class="fa fa-facebook">&ensp;</i>Encuéntranos en Facebook
+        </a>
+      </p>
+    </div>
+  </div>
+
+</div>
+
+
+<div style="text-align:center;" class="col col-12">
+
+
+     <hr id="final"/>
+       <p>
+       <a href="https://www.netlify.com"><img style="width:100px"  src="/img/netlify-color-accent.svg"/></a>&nbsp;&nbsp;
+       <a href="https://jekyllrb.com"><img style="width:85px; border-radius:3px" src="/img/jekyll-logo.svg" /></a>&nbsp;&nbsp;
+       <a href="https://html5boilerplate.com"><img style="width:42px; border-radius:3px" src="/img/html5-boilerplate.svg"/></a>
+       </p>
+       <p>
+       <a href="https://fernanz.github.io"><img style="width:55px; border-radius:3px" src="/img/fernanz-logo.svg"/></a>
+       </p>
+
+     <p>
+       DESARROLLO WEB: <a href="mailto:fmayorga.uno@gmail.com">FERNANDO MAYORGA</a><br /><span style="color:#aaa;">&copy; Programa Museo, Arte y Ciudad 2018.</span>
+     </p>
+</div>
+
+</div>
+</div>
+
+</div><!-- end of main-->
+
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="/js/plugins.js"></script>
+        <script src="/js/main.js"></script>
+        <script src="/js/kube.js"></script>
+        <script src="/js/wow.js"></script>
+        <script src="/js/jquery.bxslider.min.js"></script>
+        <script src="/js/heritage.js"></script>
+        <script src="/js/jquery-modal-video.min.js"></script>
+
+  <script>
+  new Chartist.Bar('.ct-chart', {
+  labels: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
+  series: [
+    [1486, 2230, 1875, 1002, 3582, 3576, 5454, 4202, 3278, 2599, 3820, 1811],
+    [519, 305, 193, 133, 244, 403, 433, 458, 232, 251, 289, 191]
+  ]
+  }, {
+    stackBars: true,
+  }).on('draw', function(data) {
+    if(data.type === 'bar') {
+      data.element.attr({
+        style: 'stroke-width: 18px'
+      });
+    }
+  });
+
+  </script>
+  <script>
+        $(document).ready(function(){
+            $('.bxslider').bxSlider({
+        mode: 'fade',
+        auto: true
+
+      	});
+          });
+  </script>
+  <script>
+        wow = new WOW(
+                {
+                  animateClass: 'animated',
+                  offset: 100
+                }
+        )
+        wow.init()
+  </script>
+  <script>
+		$(".js-video-button").modalVideo({
+			youtube:{
+				controls:true,
+				nocookie: true
+			}
+		});
+	</script>
+  <script>
+    $(document).ready( function(){
+  $('#mid-menu .it').each(function(){
+    var max = 360,
+        hue = Math.floor(Math.random() * max),
+        half = hue - 180;
+    $(this).find('.background-gradient').css({ backgroundImage: 'linear-gradient(45deg,hsl('+hue+',75%,50%) 0%,hsl('+half+',75%,50%) 100%)' });
+    var $title = $(this).find('.informax .titulado');
+    if ( $title.text().length > 35 ) {
+      $title.text( $title.text().substring(0,35) + '...' );
+    }
+    var $p = $(this).find('.informax p');
+    if ( $p.text().length > 100 ) {
+      $p.text( $p.text().substring(0,100) + '...' );
+    }
+    var content = $(this).find('.informax .content-mid').outerHeight();
+    $(this).find('.informax').css('bottom','-'+content+'px');
+  });
+});
+  </script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-100191210-1', 'auto');
+  ga('send', 'pageview');
+      </script>
+
+    </body>
+</html>

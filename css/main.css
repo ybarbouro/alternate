@@ -54,7 +54,12 @@ h2.cce {
   color: #1a1a1a;
   overflow:hidden;
   padding: 3rem 0 3.7rem 0;
-  background-color: #fff;
+  min-height: 80vh;
+  background-image: url(/img/rays.svg),url(/img/liber-crunch.png);
+  background-repeat: no-repeat;
+  background-position:left bottom;
+  background-size:cover;
+  background-blend-mode:multiply;
 }
 
 .tca-bg {
@@ -139,7 +144,16 @@ h2.cce {
   margin-top: 2rem;
 }
 .mailchimp {
-    background-blend-mode:lighten;
+  color: #1a1a1a;
+  overflow:hidden;
+  padding: 3rem 0 3.7rem 0;
+  min-height: 80vh;
+  background-image: url(/img/liber-crunch.png);
+  background-repeat: no-repeat;
+  background-position:left top;
+  background-position-x: -20vw;
+  background-size: 100vh;
+  background-blend-mode:overlay;
 }
 }
 
@@ -1705,45 +1719,56 @@ div.premiere-kaki {
 }
 
 .item-grid:nth-child(1) {
-  background-color: rgba(255,255,255,.9);
+  background-color: #EBBE65;
 }
-.item-grid:nth-child(2) {
-  background-color: rgba(255,255,255,.8);
+
+.item-grid:nth-child(1)> h2{
+  color: rgba(133,20,75,1);
+  font-size: 2.5rem;
+  line-height: 2.6rem;
+}
+.item-grid:nth-child(1)> h3 {
+  color: rgba(255,255,255,1);
+  font-size: 2rem;
 }
 .item-grid:nth-child(3) {
-  background-color: rgba(255,255,255,.7);
+  background-color: rgba(255,255,255,.9);
 }
 .item-grid:nth-child(4) {
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(255,255,255,.7);
 }
 .item-grid:nth-child(5) {
+  background-color: rgba(255,255,255,.5);
+}
+
+.item-grid:nth-child(2) {
   background-color: rgba(133,20,75,1);
   color: rgba(255,255,255,.8);
 }
-.item-grid:nth-child(5)> h2{
+.item-grid:nth-child(2)> h2{
   color: #ffffff;
   font-size: 3.5rem;
   line-height: 3.6rem;
 }
-.item-grid:nth-child(5)> h3 {
+.item-grid:nth-child(2)> h3 {
   color: #ffa500;
   font-size: 2rem;
 }
-.item-grid:nth-child(5)> p > a {
+.item-grid:nth-child(2)> p > a {
   color: #ffa500;
 }
 
 .item-grid:nth-child(6) {
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255,255,255,.3);
 }
 .item-grid:nth-child(7) {
-  background-color: rgba(255,255,255,.8);
+  background-color: rgba(255,255,255,.1);
 }
 .item-grid:nth-child(8) {
-  background-color: rgba(255,255,255,.7);
+  background-color: rgba(255,255,255,.6);
 }
 .item-grid:nth-child(9) {
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(255,255,255,.4);
 }
 .item-grid:nth-child(10) {
   background-color: rgba(133,20,75,1);

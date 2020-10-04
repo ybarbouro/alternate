@@ -1,101 +1,32 @@
 {% include head.html %}
 <body class="noise">
+  <div class="head-news">
         <!-- Add your site or application content here -->
-<div class="main"><!-- Aquí va class main -->
-<div class="bg-hero">
-            <div class="site-header clearfix" role=banner>
-              <div class="site-logo">MUSEO ARTE Y CIUDAD
+
+        <div style="padding-top: .7rem">
+          <div class="site-header clearfix" role=banner>
+                <div class="site-logo">MUSEO ARTE Y CIUDAD
+                </div>
+                <ul class="site-nav inline-block-list">
+                  <li>
+                    <a href="/" data-ga-category="Outbound links" data-ga-action="Nav click" data-ga-label=Docs>INICIO
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#pod" data-ga-category="Inbound links" data-ga-action="Nav click" data-ga-label=Docs>NUESTRO PODCAST
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/contactos" data-ga-category="Outbound links" data-ga-action="Nav click" data-ga-label=Docs>CONTACTOS
+                    </a>
+                  </li>
+                </ul>
               </div>
-              <ul class="site-nav inline-block-list">
-                <li>
-                  <a href="bicentenario-expo" data-ga-category="Outbound links" data-ga-action="Nav click" data-ga-label=Docs>BICENTENARIO
-                  </a>
-                </li>
-                <li>
-                  <a href="#pod" data-ga-category="Inbound links" data-ga-action="Nav click" data-ga-label=Docs>NUESTRO PODCAST
-                  </a>
-                </li>
-                <li>
-                  <a href="/contactos" data-ga-category="Outbound links" data-ga-action="Nav click" data-ga-label=Docs>CONTACTOS
-                  </a>
-                </li>
-              </ul>
-            </div>
+          </div>
 
-<div class="site-promo-alt">
-<div class="wow slideInRight">
-    <div class="dali-logo">
-      <img  src="/assets/colectivo-logo-white.svg"/>
-    </div>
-</div>
+        {{ content }}
 
-</div><!-- END site-promo-->
-</div><!-- end of bg-hero -->
-</div><!-- end main -->
-
-<div style="padding: 2.1em 0; background-color:rgba(255,255,255,.8);">
-<h2 class="league-sm">ACTO INAUGURAL Y EXPOSICIÓN VIRTUAL <span>DESDE EL MUSEO MUNICIPAL</span></h2>
-<a href="/bicentenario-expo"><button class="cartel-red"><i class="fa fa-youtube-play"></i> VER EXPOSICIÓN</button></a>
-</div>
-
-
-
-<div class="head-news">
-<div class="row" style="margin: 0 10px">
-  <div class="col col-1"></div>
-  <div class="col col-5">
-  <img src="/assets/artistas.svg"/></div>
-  <div class="col col-5">
-    <div class="flex-embed">
-
-        <img src="//i.ytimg.com/vi/N25NR5z6j6A/maxresdefault.jpg" width="480" height="360" alt="video thumbnail">
-
-      <div class="play-btn js-video-button" data-video-id='N25NR5z6j6A' data-channel="youtube">
-      </div>
-    </div>
-   </div>
-   <div class="col col-1"></div>
-</div>
-
-{% include aside-b.html %}
-
-  <h2 class="league-sm">MUSEO MUNICIPAL DE GUAYAQUIL
-  </h2>
-  <p style="color:#778899;">Sucre entre Chile y Pedro Carbo - Guayaquil<br />
-    (04) 259 4800 ext. 7402
-  </p>
-
-{% include premiere-c.html %}
-
-{% include mailchimp.html %}
-
-{% include eventos.html %}
-
-{% include gridsq.html %}
-
-<!-- <div class="nia">
-  <div class="row">
-
-    <div class="col col-6" >
-      <figure style="width:100%;margin-bottom:0;float:right;">
-        <img src="//res.cloudinary.com/magnvs/image/upload/v1538734192/nia-text_mhilev.svg">
-      </figure>
-    </div>
-
-    <div class="col col-6 niana con">
-    <div class="con-jump top">
-      <a href="//nia.guayaquil.gob.ec"><img clas="jump" src="/assets/neo-nia.svg"/></a>
-    </div>
-    </div>
-
-  </div>
-</div> -->
-<div style="min-height:20px;background-color:#ECEFF1;"></div>
-
-{% include pod.html %}
-
-{{ content }}
-
+</div> <!--end class main-->
 <div class="row colorful">
   <div class="col col-4">
     <div class="clm">
