@@ -1,7 +1,7 @@
 ---
 title: GUAYAQUIL EN PLUMILLAS
 subtitle: "Exposición"
-listing-priority: 073
+listing-priority: 072
 image: "//res.cloudinary.com/magnvs/image/upload/v1600319434/pcg3ytjncvsmujjzxsab.jpg"
 info: "/plumillas-guayaquil-expo"
 ---

@@ -1,7 +1,7 @@
 ---
 title: LA INDEPENDENCIA DE GUAYAQUIL
 subtitle: "Cómics Memorias Guayaquileñas"
-listing-priority: 072
+listing-priority: 071
 image: "//res.cloudinary.com/magnvs/image/upload/v1597875860/knnl3kcezyqaq24rdmot.png"
 mmdg: "/comics-memorias-guayaquil"
 ---
