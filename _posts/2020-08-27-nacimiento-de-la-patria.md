@@ -77,7 +77,7 @@ Una vez que se haya concluido el periodo de inscripción, el jurado realizará u
 
 La final del concurso se desarrollará en el **“Teatro Centro de Arte León Febres-Cordero”**, ubicado en el Km 4.5 de la Vía a la Costa de la ciudad de Guayaquil en fecha y hora a ser definidos e informados con anticipación por la organización del concurso.
 
-El plazo de inscripción de las presentaciones participantes de cada institución educativa finalizará el <u><strong>JUEVES 8 DE OCTUBRE DE 2020</strong></u> a las 17h00.
+El plazo de inscripción de las presentaciones participantes de cada institución educativa finalizará el <u><strong>VIERNES 30 DE OCTUBRE DE 2020</strong></u> a las 17h00.
 
 
 **5. CONFORMACIÓN DEL JURADO Y FUNCIONES DEL JURADO**
@@ -86,7 +86,7 @@ El plazo de inscripción de las presentaciones participantes de cada institució
 <ul>
 <li>El jurado de premiación estará compuesto por tres destacadas personalidades del mundo cultural y literario con conocimiento del arte de la expresión oral.</li>
 <li>Las deliberaciones del Jurado, cuya composición no se conocerá hasta la misma emisión del fallo, será secreta y sus decisiones se adoptarán por mayoría.</li>
-<li>El fallo del Jurado será inapelable y se dará a conocer el día viernes 23 de octubre de 2020. La premiación se realizará en un acto especial.</li>
+<li>El fallo del Jurado será inapelable y se dará a conocer el día viernes 20 de noviembre de 2020. La premiación se realizará en un acto especial.</li>
 </ul>
 </div>
 
