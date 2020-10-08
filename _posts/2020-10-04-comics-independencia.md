@@ -2,7 +2,7 @@
 layout: post
 title: "Cómics, cerveza, relojes y chocolates exhiben el sello de la independencia"
 subtitle: " "
-date: 2020-10-04 01:00:00
+date: 2020-10-04 09:00:00
 comment: Moisés Pinchevsky | El Universo
 image: "//res.cloudinary.com/magnvs/image/upload/v1602169668/comic_3_qjvplz.jpg"
 ffw: Leer más
