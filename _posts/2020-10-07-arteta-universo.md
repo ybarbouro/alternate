@@ -3,11 +3,10 @@ layout: post
 title: "Germán Arteta Vargas evoca a los personajes más pintorescos de Guayaquil en su nuevo libro"
 subtitle: " "
 date: 2020-10-07 00:00:00
-comment: Moisés Pinchevsky| El Universo
+comment: Moisés Pinchevsky | El Universo
 image: "//res.cloudinary.com/magnvs/image/upload/v1602649795/buolst9zextr0lcjcvgk.jpg"
 ffw: Leer más
 ---
-
 El astrónomo Eloy Ortega, Alberto Borges, Guido Garay, Bernard Fougères, Don Buca, Juanita Canuto, Hilda Thomas Méndez, el payaso Cartuchito, María Sin Tripas, el Hombre de la Campana, Clarita, la Vira Barco, Julio Jaramillo, La Papirusa, Kalimán y el Ladrón de la Levita son algunos de los protagonistas del libro Personajes populares de Guayaquil, que el periodista Germán Arteta Vargas presentó ante un grupo de amigos y colegas este miércoles, a las 11:00, en la librería La Madriguera, ubicada en la planta alta de Guayarte, frente a la Universidad Católica.<br/><br/>El autor de este texto, que recoge descripciones y anécdotas de casi un centenar de personajes, explica que su propósito es “recuperar la memoria guayaquileña, mantenerla vigente, compartirla y que todos nos sintamos orgullosos de cada uno de los capítulos que componen esta obra”.<br/><br/>Arteta conoció personalmente a varios de estos personajes, como Kalimán y Clarita. “Los veía en las calles de la ciudad y agregaban un mensaje hermoso y simpático que llegaba a las fibras de los corazones por ser honestos y populares”.
 
 Tales encuentros le dejaron una gran enseñanza que, a través de su libro, desea compartir con sus conciudadanos en estas fiestas del bicentenario de independencia. “Guayaquil no es solo la ciudad fenicia (eminentemente comercial) que muchos dicen, sino que es un enjambre de hombres y mujeres que han aportado de distinta manera al desarrollo de la ciudad y en verdad le han dado una identidad que nos enorgullece”, agrega el también miembro de la Academia Nacional de Historia, quien laboró en EL UNIVERSO por 26 años.

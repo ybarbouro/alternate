@@ -7,9 +7,11 @@ comment: Cynthia Flores | Expreso
 image: "//res.cloudinary.com/magnvs/image/upload/v1600891540/vliaofkvvjxcuzikgyuk.jpg"
 ffw: Leer más
 ---
-Veinte artistas alistan los bocetos que plasmarán en la piel de hombres y mujeres desde la tarde de este viernes. Se ubicarán distanciados, a lo largo de cinco kilómetros, como parte de la diversidad cultural que se presentará en la ‘Ruta de las artes’, el proyecto que tomará vida en octubre en Guayarte.
+Veinte artistas alistan los bocetos que plasmarán en la piel de hombres y mujeres desde la tarde de este viernes. Se ubicarán distanciados, a lo largo de cinco kilómetros, como parte de la diversidad cultural que se presentará en la ‘Ruta de las artes’, el proyecto que tomará vida en octubre en Guayarte.<br/><br/>El colectivo **‘La piel se viste de color’** tiene listos a sus modelos, que estarán al aire libre, vistiendo mallas o bikinis. Esta vez las mascarillas se integrarán a las obras que se realizarán en vivo y que estarán inspiradas en el bicentenario de la Independencia de Guayaquil.
 
-El colectivo **‘La piel se viste de color’** tiene listos a sus modelos, que estarán al aire libre, vistiendo mallas o bikinis. Esta vez las mascarillas se integrarán a las obras que se realizarán en vivo y que estarán inspiradas en el bicentenario de la Independencia de Guayaquil.<br/><br/>Los rostros de próceres, la representación del primer grito de la independencia, el río Guayas, el estero, la bandera de la ciudad y una serie de imágenes e íconos alusivos a la fecha, quedarán impregnados sobre la piel y, en algunos casos, también en las mascarillas.<br/><br/>Los viernes, sábados y domingos, durante todo octubre, la piel se vestirá de color desde la tarde (de 16:00 a 21:00), cuenta Marco Martínez, quien dirige el colectivo.
+Los rostros de próceres, la representación del primer grito de la independencia, el río Guayas, el estero, la bandera de la ciudad y una serie de imágenes e íconos alusivos a la fecha, quedarán impregnados sobre la piel y, en algunos casos, también en las mascarillas.
+
+Los viernes, sábados y domingos, durante todo octubre, la piel se vestirá de color desde la tarde (de 16:00 a 21:00), cuenta Marco Martínez, quien dirige el colectivo.
 
 Habrá pintores y modelos de todas las edades y también será un evento inclusivo, pues contará con personas con discapacidad, unos dibujando y otros como lienzos.
 
